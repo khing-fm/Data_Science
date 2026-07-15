@@ -21,7 +21,7 @@ Welcome to my data science learning repository! This project is a space for me t
 ## Repository structure
 
 - `README.md` - This guide to the project
-- `Untitled1.ipynb` - A Jupyter Notebook for hands-on practice
+- `Introduction_To_Python.ipynb` - A Jupyter Notebook for hands-on practice
 
 ## Tools and libraries
 
@@ -37,7 +37,7 @@ These are the tools I use for learning data science:
 
 ## How to use this repository
 
-1. Open `Untitled1.ipynb` in Jupyter Notebook or VS Code.
+1. Open `Introduction_To_Python.ipynb` in Jupyter Notebook or VS Code.
 2. Follow the notebook cells to practice data loading, cleaning, analysis, and visualization.
 3. Run each cell to see how the code works.
 4. Edit and experiment with the code to learn by doing.
@@ -68,7 +68,7 @@ These are the tools I use for learning data science:
 
 ## Next steps
 
-- Rename `Untitled1.ipynb` to something meaningful when ready
+- Rename `Introduction_To_Python.ipynb` to something meaningful when ready
 - Add a dataset or sample project for practice
 - Write notes and summaries in the notebook
 - Share progress with others or keep it for personal review
