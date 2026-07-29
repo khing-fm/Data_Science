@@ -1,0 +1,310 @@
+{
+  "catalog_version": "1.0",
+  "last_updated": "2024-01-15T10:30:00Z",
+  "currency": "USD",
+  "categories": {
+    "Electronics": {
+      "tax_rate": 0.08,
+      "warranty_months": 12,
+      "products": [
+        {
+          "sku": "ELEC-001",
+          "name": "Laptop Pro 15",
+          "price": 1299.99,
+          "inventory": {
+            "stock": 45,
+            "reorder_point": 10,
+            "supplier_id": "SUP-518"
+          },
+          "ratings": {
+            "average": 4.5,
+            "count": 234
+          },
+          "active": true
+        },
+        {
+          "sku": "ELEC-002",
+          "name": "Wireless Mouse",
+          "price": 29.99,
+          "inventory": {
+            "stock": 350,
+            "reorder_point": 70,
+            "supplier_id": "SUP-632"
+          },
+          "ratings": {
+            "average": 4.2,
+            "count": 892
+          },
+          "active": true
+        },
+        {
+          "sku": "ELEC-003",
+          "name": "USB-C Dock",
+          "price": 89.99,
+          "inventory": {
+            "stock": 120,
+            "reorder_point": 24,
+            "supplier_id": "SUP-654"
+          },
+          "ratings": {
+            "average": 4.0,
+            "count": 156
+          },
+          "active": true
+        },
+        {
+          "sku": "ELEC-004",
+          "name": "Mechanical Keyboard",
+          "price": 149.99,
+          "inventory": {
+            "stock": 78,
+            "reorder_point": 15,
+            "supplier_id": "SUP-818"
+          },
+          "ratings": {
+            "average": 4.7,
+            "count": 445
+          },
+          "active": true
+        },
+        {
+          "sku": "ELEC-005",
+          "name": "4K Monitor 32\"",
+          "price": 449.99,
+          "inventory": {
+            "stock": 32,
+            "reorder_point": 10,
+            "supplier_id": "SUP-982"
+          },
+          "ratings": {
+            "average": 4.6,
+            "count": 289
+          },
+          "active": true
+        },
+        {
+          "sku": "ELEC-006",
+          "name": "Webcam HD Pro",
+          "price": 129.99,
+          "inventory": {
+            "stock": 95,
+            "reorder_point": 19,
+            "supplier_id": "SUP-219"
+          },
+          "ratings": {
+            "average": 4.3,
+            "count": 567
+          },
+          "active": true
+        },
+        {
+          "sku": "ELEC-007",
+          "name": "Noise Canceling Headphones",
+          "price": 279.99,
+          "inventory": {
+            "stock": 67,
+            "reorder_point": 13,
+            "supplier_id": "SUP-280"
+          },
+          "ratings": {
+            "average": 4.8,
+            "count": 1203
+          },
+          "active": true
+        },
+        {
+          "sku": "ELEC-008",
+          "name": "Portable SSD 1TB",
+          "price": 119.99,
+          "inventory": {
+            "stock": 145,
+            "reorder_point": 29,
+            "supplier_id": "SUP-488"
+          },
+          "ratings": {
+            "average": 4.4,
+            "count": 678
+          },
+          "active": true
+        }
+      ]
+    },
+    "Furniture": {
+      "tax_rate": 0.06,
+      "warranty_months": 24,
+      "products": [
+        {
+          "sku": "FURN-001",
+          "name": "Ergonomic Office Chair",
+          "price": 399.99,
+          "inventory": {
+            "stock": 28,
+            "reorder_point": 10,
+            "supplier_id": "SUP-330"
+          },
+          "ratings": {
+            "average": 4.5,
+            "count": 312
+          },
+          "active": true
+        },
+        {
+          "sku": "FURN-002",
+          "name": "Standing Desk Electric",
+          "price": 599.99,
+          "inventory": {
+            "stock": 15,
+            "reorder_point": 10,
+            "supplier_id": "SUP-396"
+          },
+          "ratings": {
+            "average": 4.6,
+            "count": 189
+          },
+          "active": true
+        },
+        {
+          "sku": "FURN-003",
+          "name": "LED Desk Lamp",
+          "price": 49.99,
+          "inventory": {
+            "stock": 200,
+            "reorder_point": 40,
+            "supplier_id": "SUP-129"
+          },
+          "ratings": {
+            "average": 4.1,
+            "count": 423
+          },
+          "active": true
+        },
+        {
+          "sku": "FURN-004",
+          "name": "Filing Cabinet 3-Drawer",
+          "price": 189.99,
+          "inventory": {
+            "stock": 42,
+            "reorder_point": 10,
+            "supplier_id": "SUP-330"
+          },
+          "ratings": {
+            "average": 3.9,
+            "count": 87
+          },
+          "active": true
+        },
+        {
+          "sku": "FURN-005",
+          "name": "Bookshelf Modern",
+          "price": 149.99,
+          "inventory": {
+            "stock": 35,
+            "reorder_point": 10,
+            "supplier_id": "SUP-219"
+          },
+          "ratings": {
+            "average": 4.2,
+            "count": 156
+          },
+          "active": true
+        }
+      ]
+    },
+    "Office Supplies": {
+      "tax_rate": 0.05,
+      "warranty_months": 0,
+      "products": [
+        {
+          "sku": "OFFC-001",
+          "name": "Premium Notebook 5-Pack",
+          "price": 24.99,
+          "inventory": {
+            "stock": 500,
+            "reorder_point": 100,
+            "supplier_id": "SUP-682"
+          },
+          "ratings": {
+            "average": 4.3,
+            "count": 234
+          },
+          "active": true
+        },
+        {
+          "sku": "OFFC-002",
+          "name": "Gel Pen Set 12-Pack",
+          "price": 15.99,
+          "inventory": {
+            "stock": 800,
+            "reorder_point": 160,
+            "supplier_id": "SUP-109"
+          },
+          "ratings": {
+            "average": 4.5,
+            "count": 567
+          },
+          "active": true
+        },
+        {
+          "sku": "OFFC-003",
+          "name": "Printer Paper Ream",
+          "price": 29.99,
+          "inventory": {
+            "stock": 1200,
+            "reorder_point": 240,
+            "supplier_id": "SUP-202"
+          },
+          "ratings": {
+            "average": 4.0,
+            "count": 123
+          },
+          "active": true
+        },
+        {
+          "sku": "OFFC-004",
+          "name": "Desk Organizer Set",
+          "price": 34.99,
+          "inventory": {
+            "stock": 180,
+            "reorder_point": 36,
+            "supplier_id": "SUP-260"
+          },
+          "ratings": {
+            "average": 4.4,
+            "count": 298
+          },
+          "active": true
+        },
+        {
+          "sku": "OFFC-005",
+          "name": "Whiteboard 36x24",
+          "price": 59.99,
+          "inventory": {
+            "stock": 65,
+            "reorder_point": 13,
+            "supplier_id": "SUP-893"
+          },
+          "ratings": {
+            "average": 4.1,
+            "count": 89
+          },
+          "active": true
+        },
+        {
+          "sku": "OFFC-006",
+          "name": "Label Maker",
+          "price": 39.99,
+          "inventory": {
+            "stock": 95,
+            "reorder_point": 19,
+            "supplier_id": "SUP-626"
+          },
+          "ratings": {
+            "average": 4.2,
+            "count": 345
+          },
+          "active": true
+        }
+      ]
+    }
+  }
+}

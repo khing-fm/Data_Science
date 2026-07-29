@@ -1,0 +1,201 @@
+employee_id,first_name,last_name,email,department,title,hire_date,salary,bonus,performance_rating,status
+EMP1001,John,Martinez,john.martinez@company.com,HR,HR Manager,2015-07-22,118453,0,4,Active
+EMP1002,Andrew,Lopez,andrew.lopez@company.com,Marketing,Brand Manager,2016-03-12,113805,0,2,Active
+EMP1003,Ashley,Jones,ashley.jones@company.com,Finance,Controller,2014-07-26,103811,2736,4,Active
+EMP1004,Robert,Taylor,robert.taylor@company.com,Marketing,Brand Manager,2011-04-06,136773,10868,2,Active
+EMP1005,Mark,Garcia,mark.garcia@company.com,Engineering,Software Engineer,2018-10-06,102576,0,5,Active
+EMP1006,Emily,Perez,emily.perez@company.com,Engineering,Engineering Manager,2017-10-27,143410,14088,2,Active
+EMP1007,Elizabeth,Jackson,elizabeth.jackson@company.com,Operations,Operations Analyst,2013-12-04,96238,0,4,Active
+EMP1008,Linda,Jones,linda.jones@company.com,Finance,Financial Analyst,2023-04-09,84978,0,4,Active
+EMP1009,Matthew,Williams,matthew.williams@company.com,Finance,Accountant,2021-04-22,90135,8547,4,Active
+EMP1010,Daniel,Johnson,daniel.johnson@company.com,Engineering,Senior Software Engineer,2021-09-19,114695,0,3,Active
+EMP1011,Matthew,Davis,matthew.davis@company.com,Engineering,DevOps Engineer,2024-07-22,85936,8569,2,Active
+EMP1012,Donna,Lopez,donna.lopez@company.com,Engineering,Senior Software Engineer,2015-11-11,129408,0,3,Active
+EMP1013,Matthew,Wilson,matthew.wilson@company.com,Engineering,Senior Software Engineer,2017-06-29,122856,11096,3,Active
+EMP1014,Donald,Thompson,donald.thompson@company.com,Customer Support,Support Specialist,2015-02-15,84202,1793,3,Active
+EMP1015,Mark,Martinez,mark.martinez@company.com,Finance,Finance Manager,2019-01-08,133252,12179,4,Active
+EMP1016,Michelle,Robinson,michelle.robinson@company.com,HR,HR Manager,2012-04-30,122621,12619,4,Active
+EMP1017,Richard,Martin,richard.martin@company.com,Finance,Controller,2024-07-29,73504,5475,3,Active
+EMP1018,Linda,Sanchez,linda.sanchez@company.com,Sales,Account Executive,2017-09-30,86457,6758,4,Active
+EMP1019,Nancy,Martinez,nancy.martinez@company.com,Customer Support,Senior Support,2012-08-14,103447,6142,4,Active
+EMP1020,Donna,Taylor,donna.taylor@company.com,Finance,Senior Accountant,2020-01-29,107362,0,5,Active
+EMP1021,Steven,Lopez,steven.lopez@company.com,Engineering,Engineering Manager,2019-01-06,141617,0,5,Active
+EMP1022,Andrew,Anderson,andrew.anderson@company.com,Marketing,Brand Manager,2015-05-16,126451,0,5,Active
+EMP1023,Michael,Perez,michael.perez@company.com,Finance,Finance Manager,2023-12-18,113360,16273,4,Active
+EMP1024,Emily,Clark,emily.clark@company.com,Sales,Sales Representative,2011-10-31,105839,7819,3,Active
+EMP1025,Richard,Martin,richard.martin@company.com,Engineering,Software Engineer,2017-01-09,107619,0,5,Active
+EMP1026,Joseph,Rodriguez,joseph.rodriguez@company.com,Sales,Business Development,2021-10-01,85753,7191,3,Active
+EMP1027,Lisa,Anderson,lisa.anderson@company.com,Sales,Senior Sales Rep,2016-01-03,117613,2609,5,Active
+EMP1028,Linda,Williams,linda.williams@company.com,Sales,Sales Manager,2023-07-30,89644,0,4,Active
+EMP1029,Joseph,Thomas,joseph.thomas@company.com,Finance,Accountant,2020-07-04,86650,3189,3,Active
+EMP1030,John,Perez,john.perez@company.com,Engineering,QA Engineer,2011-03-13,121685,15251,4,Terminated
+EMP1031,Charles,Perez,charles.perez@company.com,Sales,Sales Representative,2016-02-05,101610,0,4,Active
+EMP1032,Paul,Martinez,paul.martinez@company.com,Engineering,Engineering Manager,2019-01-17,123486,15033,5,Active
+EMP1033,Paul,Brown,paul.brown@company.com,Sales,Account Executive,2013-02-23,105962,0,3,Active
+EMP1034,Mark,Wilson,mark.wilson@company.com,Sales,Senior Sales Rep,2020-12-14,106817,7787,3,On Leave
+EMP1035,Steven,Taylor,steven.taylor@company.com,HR,HR Business Partner,2015-02-15,94678,11702,,Active
+EMP1036,James,Garcia,james.garcia@company.com,Sales,Account Executive,2011-12-09,110661,9588,3,On Leave
+EMP1037,Emily,Hernandez,emily.hernandez@company.com,Sales,Sales Representative,2013-04-06,106486,0,5,Active
+EMP1038,Mark,White,mark.white@company.com,Sales,Senior Sales Rep,2011-04-03,114231,0,4,Active
+EMP1039,John,Robinson,john.robinson@company.com,Engineering,Engineering Manager,2019-03-20,141047,0,4,Active
+EMP1040,Nancy,Martin,nancy.martin@company.com,Sales,Account Executive,2024-02-14,76643,9073,5,Active
+EMP1041,Betty,Jones,betty.jones@company.com,Marketing,SEO Specialist,2012-08-07,106441,14818,4,Terminated
+EMP1042,Donna,Smith,donna.smith@company.com,Engineering,Senior Software Engineer,2021-10-24,109636,8529,4,Active
+EMP1043,Jessica,Miller,jessica.miller@company.com,Sales,Business Development,2014-04-09,101407,0,5,Active
+EMP1044,Charles,Hernandez,charles.hernandez@company.com,Customer Support,Customer Success Manager,2018-07-29,90536,0,2,Active
+EMP1045,John,White,john.white@company.com,Marketing,Marketing Specialist,2025-03-17,65181,0,3,Active
+EMP1046,Andrew,Wilson,andrew.wilson@company.com,Operations,Operations Analyst,2014-02-22,92693,0,3,Active
+EMP1047,Ashley,Martin,ashley.martin@company.com,Sales,Business Development,2011-06-23,105780,3386,4,On Leave
+EMP1048,Donald,Jackson,donald.jackson@company.com,Customer Support,Technical Support,2024-11-16,46804,0,2,Active
+EMP1049,Joshua,Taylor,joshua.taylor@company.com,Finance,Financial Analyst,2022-03-31,76725,7064,4,Active
+EMP1050,Patricia,Brown,patricia.brown@company.com,Sales,Sales Representative,2016-08-29,88186,8177,5,Active
+EMP1051,Joseph,Rodriguez,joseph.rodriguez@company.com,Customer Support,Customer Success Manager,2013-08-02,121628,10824,4,Active
+EMP1052,Daniel,Lee,daniel.lee@company.com,Engineering,DevOps Engineer,2015-07-21,118641,17690,,Active
+EMP1053,Karen,Robinson,karen.robinson@company.com,Engineering,Senior Software Engineer,2014-05-13,131654,11194,5,Active
+EMP1054,Barbara,Davis,barbara.davis@company.com,Marketing,Marketing Specialist,2023-10-31,64423,6914,,Active
+EMP1055,Robert,Clark,robert.clark@company.com,Engineering,Tech Lead,2024-01-11,109242,0,3,Active
+EMP1056,Susan,Lewis,susan.lewis@company.com,Engineering,Senior Software Engineer,2018-04-25,133055,0,5,Active
+EMP1057,Ashley,Thompson,ashley.thompson@company.com,Engineering,Tech Lead,2012-03-25,138009,15406,3,Active
+EMP1058,Linda,Lee,linda.lee@company.com,Marketing,Marketing Specialist,2015-07-08,93291,4240,3,Active
+EMP1059,Andrew,White,andrew.white@company.com,Marketing,Content Writer,2017-03-12,84920,0,3,Active
+EMP1060,Patricia,Jackson,patricia.jackson@company.com,Engineering,QA Engineer,2017-08-24,116321,7023,3,Active
+EMP1061,William,Lee,william.lee@company.com,Sales,Senior Sales Rep,2015-07-20,102352,0,3,Active
+EMP1062,Mark,Hernandez,mark.hernandez@company.com,Marketing,Marketing Manager,2014-09-04,123184,4209,4,Active
+EMP1063,Karen,Clark,karen.clark@company.com,Engineering,Senior Software Engineer,2018-01-13,127750,0,4,Active
+EMP1064,Ashley,Anderson,ashley.anderson@company.com,Engineering,QA Engineer,2018-01-15,116242,8540,5,Active
+EMP1065,Donna,White,donna.white@company.com,Sales,Business Development,2024-09-01,65655,9661,1,Active
+EMP1066,Daniel,Hernandez,daniel.hernandez@company.com,Customer Support,Technical Support,2024-04-17,56795,0,2,Active
+EMP1067,David,Harris,david.harris@company.com,Finance,Financial Analyst,2025-06-01,67551,0,1,Active
+EMP1068,Sarah,Martin,sarah.martin@company.com,Engineering,DevOps Engineer,2021-10-02,103035,0,5,Active
+EMP1069,Richard,Clark,richard.clark@company.com,Sales,Account Executive,2019-10-22,87029,3414,2,Active
+EMP1070,Donna,Williams,donna.williams@company.com,Marketing,SEO Specialist,2023-11-27,71488,2472,3,Active
+EMP1071,Karen,Taylor,karen.taylor@company.com,Marketing,Marketing Manager,2024-01-02,91887,12422,5,Active
+EMP1072,Matthew,Gonzalez,matthew.gonzalez@company.com,Engineering,Tech Lead,2019-09-27,126209,0,3,Active
+EMP1073,Karen,Brown,karen.brown@company.com,Engineering,Engineering Manager,2018-01-04,126549,16895,4,Active
+EMP1074,Nancy,Johnson,nancy.johnson@company.com,Sales,Account Executive,2021-09-14,79895,0,3,Active
+EMP1075,Christopher,Lopez,christopher.lopez@company.com,HR,HR Business Partner,2025-04-08,55471,0,4,Active
+EMP1076,James,Gonzalez,,Engineering,Senior Software Engineer,2025-11-18,102246,9462,2,Active
+EMP1077,Mary,Rodriguez,mary.rodriguez@company.com,Marketing,Marketing Specialist,2020-03-24,77539,0,4,Active
+EMP1078,Charles,Perez,charles.perez@company.com,Engineering,Software Engineer,2016-04-07,114168,4482,3,Active
+EMP1079,Joshua,Jackson,joshua.jackson@company.com,Engineering,Tech Lead,2019-11-18,114030,0,4,Active
+EMP1080,Matthew,Clark,matthew.clark@company.com,Sales,Business Development,2018-10-06,83370,2877,5,Active
+EMP1081,Linda,White,linda.white@company.com,Finance,Finance Manager,2025-07-07,102620,0,3,Active
+EMP1082,Jessica,Perez,jessica.perez@company.com,Engineering,DevOps Engineer,2017-05-24,115056,9704,4,Active
+EMP1083,Paul,Thomas,paul.thomas@company.com,Engineering,Software Engineer,2025-05-11,86996,0,3,Active
+EMP1084,Ashley,Rodriguez,ashley.rodriguez@company.com,Finance,Senior Accountant,2021-02-25,103087,8203,5,Active
+EMP1085,Joshua,Wilson,joshua.wilson@company.com,Sales,Account Executive,2020-10-23,80305,0,1,Active
+EMP1086,Sandra,Lewis,sandra.lewis@company.com,HR,Training Specialist,2024-11-15,63313,6977,4,Active
+EMP1087,Nancy,Harris,nancy.harris@company.com,Engineering,Tech Lead,2017-04-20,128102,18135,3,Active
+EMP1088,Patricia,Johnson,patricia.johnson@company.com,HR,HR Coordinator,2023-08-12,64638,2964,5,Active
+EMP1089,Donald,Martin,donald.martin@company.com,Sales,Business Development,2018-01-23,86393,6904,4,Active
+EMP1090,Steven,Johnson,steven.johnson@company.com,Engineering,Engineering Manager,2014-11-12,157427,23181,4,Active
+EMP1091,Margaret,Lewis,margaret.lewis@company.com,Customer Support,Support Specialist,2011-06-07,81695,6516,4,Active
+EMP1092,James,Wilson,james.wilson@company.com,Customer Support,Support Team Lead,2011-02-15,95950,0,4,Active
+EMP1093,David,Harris,david.harris@company.com,Sales,Sales Manager,2012-08-23,139088,0,3,Active
+EMP1094,Patricia,Miller,patricia.miller@company.com,Customer Support,Support Specialist,2011-09-14,80384,5048,5,Active
+EMP1095,William,Thomas,william.thomas@company.com,Customer Support,Support Team Lead,2017-03-07,94345,10114,4,Active
+EMP1096,Steven,Jackson,steven.jackson@company.com,Sales,Senior Sales Rep,2017-10-18,97074,0,4,Active
+EMP1097,Nancy,Moore,nancy.moore@company.com,Sales,Sales Manager,2012-09-12,136403,3550,4,Active
+EMP1098,Daniel,White,daniel.white@company.com,Customer Support,Support Team Lead,2011-12-08,108694,13857,,Active
+EMP1099,Matthew,Ramirez,matthew.ramirez@company.com,Marketing,Marketing Manager,2012-12-08,125324,9958,4,Active
+EMP1100,Jessica,Johnson,jessica.johnson@company.com,Sales,Sales Representative,2019-10-01,85315,0,5,Active
+EMP1101,Christopher,Taylor,christopher.taylor@company.com,Sales,Senior Sales Rep,2013-10-05,112123,9464,2,Active
+EMP1102,Sarah,Perez,sarah.perez@company.com,Engineering,QA Engineer,2013-12-29,127848,0,5,Active
+EMP1103,Matthew,Lewis,matthew.lewis@company.com,Engineering,QA Engineer,2020-09-14,106489,14817,2,Active
+EMP1104,Mark,Gonzalez,mark.gonzalez@company.com,Sales,Account Executive,2023-03-25,77410,4581,4,Active
+EMP1105,Jessica,Lee,jessica.lee@company.com,Sales,Business Development,2022-03-31,77474,4926,3,Active
+EMP1106,Steven,Martin,steven.martin@company.com,Engineering,Senior Software Engineer,2011-10-02,147897,12408,4,Active
+EMP1107,Steven,Thompson,steven.thompson@company.com,Sales,Sales Representative,2016-10-25,95363,11944,4,Active
+EMP1108,Emily,Anderson,emily.anderson@company.com,Engineering,Tech Lead,2015-06-09,128564,8273,5,Active
+EMP1109,Michael,Garcia,michael.garcia@company.com,HR,HR Manager,2025-04-10,82567,0,3,Active
+EMP1110,Jessica,Ramirez,jessica.ramirez@company.com,Sales,Sales Representative,2019-06-10,80270,4737,4,Active
+EMP1111,Mark,Williams,mark.williams@company.com,Engineering,Senior Software Engineer,2016-12-26,129203,0,4,Active
+EMP1112,Elizabeth,Thomas,elizabeth.thomas@company.com,Operations,Supply Chain Manager,2015-10-14,123113,11249,3,Active
+EMP1113,Donald,Taylor,donald.taylor@company.com,Sales,Senior Sales Rep,2011-09-20,123569,0,4,Active
+EMP1114,Donald,Jones,donald.jones@company.com,Marketing,Brand Manager,2015-05-20,126843,11872,5,Active
+EMP1115,Andrew,Williams,andrew.williams@company.com,Marketing,Marketing Manager,2023-05-28,97457,5470,3,Active
+EMP1116,Donald,Thomas,donald.thomas@company.com,Sales,Business Development,2023-06-06,80429,10051,2,Active
+EMP1117,Jennifer,Harris,jennifer.harris@company.com,Engineering,Software Engineer,2018-04-20,110202,5820,5,On Leave
+EMP1118,Kimberly,Lee,kimberly.lee@company.com,Operations,Operations Analyst,2025-04-08,61067,3840,5,Active
+EMP1119,Margaret,White,margaret.white@company.com,Marketing,Content Writer,2012-08-29,102757,0,5,On Leave
+EMP1120,Andrew,Rodriguez,andrew.rodriguez@company.com,Finance,Finance Manager,2025-11-17,102624,2501,5,Active
+EMP1121,Matthew,Perez,matthew.perez@company.com,Engineering,Engineering Manager,2021-04-23,140269,12202,5,Active
+EMP1122,Lisa,Lewis,lisa.lewis@company.com,Engineering,Tech Lead,2015-10-22,135079,0,,Active
+EMP1123,Robert,Lee,robert.lee@company.com,Marketing,Brand Manager,2012-05-06,131247,11260,3,Active
+EMP1124,Jennifer,Jackson,jennifer.jackson@company.com,HR,Training Specialist,2025-07-10,61751,6338,5,Active
+EMP1125,Sarah,Lopez,sarah.lopez@company.com,Finance,Senior Accountant,2021-11-18,96955,0,,Active
+EMP1126,James,Sanchez,james.sanchez@company.com,HR,HR Manager,2011-04-30,124185,17954,3,Active
+EMP1127,Jessica,Lopez,jessica.lopez@company.com,Sales,Senior Sales Rep,2022-07-23,93948,0,4,Active
+EMP1128,David,Hernandez,david.hernandez@company.com,Marketing,SEO Specialist,2013-08-18,95872,6881,5,Active
+EMP1129,Kimberly,Davis,kimberly.davis@company.com,Engineering,DevOps Engineer,2011-08-20,126670,17574,,Active
+EMP1130,Daniel,Miller,daniel.miller@company.com,Sales,Senior Sales Rep,2022-11-18,86126,0,4,Active
+EMP1131,Sandra,Thompson,sandra.thompson@company.com,Sales,Sales Manager,2023-05-11,106068,0,4,Active
+EMP1132,David,Rodriguez,david.rodriguez@company.com,Customer Support,Support Team Lead,2022-11-25,67516,5156,2,Active
+EMP1133,Steven,Taylor,steven.taylor@company.com,Sales,Sales Representative,2016-02-12,90860,10354,4,Active
+EMP1134,Anthony,White,anthony.white@company.com,Engineering,Tech Lead,2022-06-03,108540,0,4,Active
+EMP1135,Jennifer,Robinson,jennifer.robinson@company.com,Sales,Business Development,2021-04-05,80386,6605,5,Active
+EMP1136,Betty,Harris,betty.harris@company.com,Engineering,QA Engineer,2014-01-26,127747,0,3,Active
+EMP1137,Karen,Martin,karen.martin@company.com,Engineering,Senior Software Engineer,2018-01-03,126526,6997,3,Active
+EMP1138,Richard,Perez,richard.perez@company.com,Marketing,Brand Manager,2024-04-14,92133,0,2,Active
+EMP1139,Donna,Anderson,donna.anderson@company.com,Marketing,Content Writer,2019-11-19,78612,10197,2,On Leave
+EMP1140,Donald,Moore,donald.moore@company.com,Marketing,Marketing Specialist,2016-06-25,96071,13762,4,Active
+EMP1141,Donna,Gonzalez,donna.gonzalez@company.com,Engineering,Tech Lead,2014-04-23,133187,,4,Active
+EMP1142,Mark,Moore,mark.moore@company.com,Sales,Business Development,2016-02-05,93636,0,3,Active
+EMP1143,David,Harris,david.harris@company.com,Operations,Project Manager,2011-01-19,128643,12017,1,Active
+EMP1144,Emily,Thomas,emily.thomas@company.com,HR,HR Business Partner,2016-08-21,84782,0,2,Active
+EMP1145,Lisa,Hernandez,lisa.hernandez@company.com,Sales,Business Development,2016-04-17,93917,0,4,Active
+EMP1146,Steven,Hernandez,steven.hernandez@company.com,Engineering,QA Engineer,2018-11-23,107469,0,5,On Leave
+EMP1147,Charles,Perez,charles.perez@company.com,Sales,Sales Manager,2024-01-22,87011,2955,4,Terminated
+EMP1148,Michelle,Taylor,michelle.taylor@company.com,Operations,Operations Manager,2015-01-19,130694,3224,4,Active
+EMP1149,Nancy,Sanchez,nancy.sanchez@company.com,Customer Support,Technical Support,2012-06-20,84943,5659,2,Active
+EMP1150,Barbara,Lopez,barbara.lopez@company.com,Marketing,Content Writer,2015-03-07,100132,4695,3,Active
+EMP1151,Sarah,Taylor,sarah.taylor@company.com,Engineering,QA Engineer,2015-02-15,116532,2835,4,Active
+EMP1152,Paul,Thomas,paul.thomas@company.com,Marketing,Content Writer,2018-04-29,85234,3363,4,Active
+EMP1153,Paul,Moore,paul.moore@company.com,Engineering,Tech Lead,2016-07-06,128157,19147,4,Active
+EMP1154,Matthew,Smith,matthew.smith@company.com,Sales,Account Executive,2022-03-23,75425,10831,3,Active
+EMP1155,Mark,Hernandez,mark.hernandez@company.com,Sales,Sales Manager,2024-03-01,100979,12975,4,Terminated
+EMP1156,Patricia,White,patricia.white@company.com,Sales,Account Executive,2023-04-05,70077,8751,3,Active
+EMP1157,Michael,Martin,michael.martin@company.com,Sales,Senior Sales Rep,2014-03-30,123792,3399,3,Active
+EMP1158,Christopher,Gonzalez,christopher.gonzalez@company.com,Engineering,Software Engineer,2014-12-13,115381,14940,5,Active
+EMP1159,Linda,Taylor,linda.taylor@company.com,Engineering,Software Engineer,2022-07-07,94711,10441,1,Active
+EMP1160,Margaret,Rodriguez,margaret.rodriguez@company.com,Engineering,Tech Lead,2016-11-26,134583,8134,2,Active
+EMP1161,Margaret,Brown,margaret.brown@company.com,HR,HR Coordinator,2020-03-23,70447,10409,4,Active
+EMP1162,Linda,Johnson,linda.johnson@company.com,Finance,Finance Manager,2014-10-31,125691,4226,5,Active
+EMP1163,Christopher,Johnson,christopher.johnson@company.com,Sales,Business Development,2017-06-10,87179,6274,4,Active
+EMP1164,Matthew,Anderson,matthew.anderson@company.com,HR,Recruiter,2018-05-10,77935,0,3,Active
+EMP1165,Karen,Brown,karen.brown@company.com,Engineering,Tech Lead,2015-12-04,128123,4685,4,Active
+EMP1166,Barbara,Clark,barbara.clark@company.com,Operations,Operations Manager,2017-09-28,115351,13314,4,Active
+EMP1167,Patricia,Jones,,Engineering,Senior Software Engineer,2012-11-14,140701,8605,4,Active
+EMP1168,Donald,Johnson,donald.johnson@company.com,Sales,Sales Manager,2015-11-17,118612,11172,4,Active
+EMP1169,Jessica,Perez,jessica.perez@company.com,Marketing,Content Writer,2022-03-15,74566,10321,3,Active
+EMP1170,Steven,Lee,steven.lee@company.com,HR,HR Manager,2013-09-17,118019,15742,3,Active
+EMP1171,Susan,Williams,susan.williams@company.com,Engineering,Engineering Manager,2011-11-12,155223,0,4,Active
+EMP1172,Daniel,Rodriguez,daniel.rodriguez@company.com,HR,Recruiter,2025-08-04,55193,7586,4,Active
+EMP1173,Jessica,Jones,jessica.jones@company.com,Sales,Business Development,2016-01-18,91773,10905,5,Active
+EMP1174,Daniel,Hernandez,daniel.hernandez@company.com,Marketing,Content Writer,2023-10-18,63707,0,3,Active
+EMP1175,Michelle,Thompson,michelle.thompson@company.com,Engineering,QA Engineer,2021-04-25,104581,14566,2,Active
+EMP1176,Christopher,Anderson,christopher.anderson@company.com,Operations,Logistics Coordinator,2018-08-31,86723,6394,4,Active
+EMP1177,Susan,Taylor,susan.taylor@company.com,Engineering,Engineering Manager,2018-07-27,139266,0,4,Active
+EMP1178,Donald,Jones,donald.jones@company.com,HR,HR Coordinator,2023-11-07,64392,1897,5,Active
+EMP1179,Daniel,Lee,daniel.lee@company.com,Engineering,Software Engineer,2024-09-08,84854,3646,4,Active
+EMP1180,Betty,Harris,betty.harris@company.com,Finance,Financial Analyst,2013-10-02,111504,11277,3,Active
+EMP1181,Jessica,Anderson,jessica.anderson@company.com,Sales,Sales Manager,2025-08-04,97609,5089,2,Active
+EMP1182,Sarah,Anderson,sarah.anderson@company.com,Customer Support,Customer Success Manager,2019-07-29,102978,,3,Active
+EMP1183,Kimberly,Moore,kimberly.moore@company.com,HR,HR Manager,2014-06-28,116074,2994,5,On Leave
+EMP1184,Karen,Davis,karen.davis@company.com,HR,Training Specialist,2011-07-11,97461,12027,3,Active
+EMP1185,Steven,Jackson,steven.jackson@company.com,Sales,Sales Manager,2017-11-14,124714,8631,3,Active
+EMP1186,Barbara,Moore,barbara.moore@company.com,Customer Support,Support Specialist,2022-10-21,57656,3249,3,Active
+EMP1187,Paul,Jones,paul.jones@company.com,Engineering,Engineering Manager,2021-06-27,128000,9645,5,Terminated
+EMP1188,Charles,Davis,charles.davis@company.com,HR,Training Specialist,2019-12-18,75289,3290,2,Active
+EMP1189,Barbara,Jones,barbara.jones@company.com,Customer Support,Support Team Lead,2018-11-20,84886,9794,2,Active
+EMP1190,Mary,Jones,mary.jones@company.com,Marketing,Marketing Specialist,2017-08-10,83932,0,5,On Leave
+EMP1191,Thomas,Garcia,thomas.garcia@company.com,Engineering,Senior Software Engineer,2015-05-19,135731,0,5,Active
+EMP1192,Linda,Gonzalez,linda.gonzalez@company.com,Operations,Project Manager,2021-11-20,100617,9645,2,Active
+EMP1193,Emily,Johnson,emily.johnson@company.com,HR,Training Specialist,2014-03-16,90910,0,5,Active
+EMP1194,Anthony,Robinson,anthony.robinson@company.com,Engineering,Engineering Manager,2021-04-08,137117,0,3,Active
+EMP1195,Jennifer,Garcia,jennifer.garcia@company.com,Customer Support,Support Specialist,2022-10-08,62215,0,5,Active
+EMP1196,Joseph,Lee,joseph.lee@company.com,Marketing,Marketing Manager,2019-12-17,114936,0,4,Active
+EMP1197,Michelle,Smith,michelle.smith@company.com,Sales,Senior Sales Rep,2016-10-03,111646,3456,2,Active
+EMP1198,Michelle,Harris,michelle.harris@company.com,Sales,Account Executive,2012-11-28,107185,7342,4,On Leave
+EMP1199,Jennifer,Ramirez,jennifer.ramirez@company.com,Engineering,DevOps Engineer,2016-08-04,112029,0,4,Active
+EMP1200,David,Anderson,david.anderson@company.com,Customer Support,Technical Support,2012-05-28,83805,11415,2,Active

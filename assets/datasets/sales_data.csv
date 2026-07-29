@@ -1,0 +1,501 @@
+transaction_id,date,product,category,quantity,unit_price,total_amount,region,sales_rep,customer_rating
+TXN10001,2023-10-17,Wireless Mouse,Electronics,2,32.16,64.32,South,Bob Smith,5
+TXN10002,2022-01-31,Wireless Mouse,Electronics,5,27.58,137.9,North,David Wilson,5
+TXN10003,2022-10-12,Printer Paper,Office Supplies,6,21.29,127.74,West,Frank Miller,4
+TXN10004,2023-01-25,Wireless Mouse,Electronics,5,33.12,165.6,South,Alice Johnson,5
+TXN10005,2023-07-20,Monitor 27inch,Electronics,3,363.5,1090.5,East,Bob Smith,2
+TXN10006,2022-08-27,Printer Paper,Office Supplies,15,24.09,361.35,West,Frank Miller,3
+TXN10007,2023-12-01,Wireless Mouse,Electronics,8,31.2,249.6,West,Carol Davis,4
+TXN10008,2022-08-13,Pen Set,Office Supplies,2,9.91,19.82,South,Alice Johnson,5
+TXN10009,2023-08-04,Stapler,Office Supplies,16,7.55,120.8,East,Henry Taylor,3
+TXN10010,2023-08-22,Desk Lamp,Furniture,2,35.87,71.74,South,Carol Davis,4
+TXN10011,2023-10-05,Wireless Mouse,Electronics,5,31.61,158.05,North,Grace Lee,4
+TXN10012,2022-01-12,Pen Set,Office Supplies,18,7.95,143.1,Central,Frank Miller,3
+TXN10013,2022-09-27,Whiteboard,Office Supplies,17,49.6,843.2,Central,Emma Brown,5
+TXN10014,2022-06-15,Notebook Pack,Office Supplies,17,,239.36,Central,Jack Anderson,4
+TXN10015,2022-11-11,Wireless Mouse,Electronics,2,33.39,66.78,North,Henry Taylor,5
+TXN10016,2023-11-07,Stapler,Office Supplies,19,7.19,136.61,Central,Grace Lee,5
+TXN10017,2024-01-01,Webcam HD,Electronics,3,91.87,275.61,East,Iris Chen,
+TXN10018,2023-07-22,USB-C Hub,Electronics,1,45.79,45.79,West,Alice Johnson,4
+TXN10019,2022-09-01,Monitor 27inch,Electronics,5,348.46,1742.3,North,Jack Anderson,4
+TXN10020,2022-04-07,Wireless Mouse,Electronics,4,29.37,117.48,East,Alice Johnson,5
+TXN10021,2022-12-14,Mechanical Keyboard,Electronics,5,117.91,589.55,North,Carol Davis,4
+TXN10022,2023-07-18,Wireless Mouse,Electronics,5,31.36,156.8,Central,Bob Smith,5
+TXN10023,2022-08-07,Printer Paper,Office Supplies,6,28.01,168.06,South,Grace Lee,4
+TXN10024,2023-07-24,Pen Set,Office Supplies,7,8.95,62.65,South,Alice Johnson,4
+TXN10025,2023-08-22,Desk Lamp,Furniture,3,39.39,118.17,North,Iris Chen,3
+TXN10026,2022-08-29,Desk Lamp,Furniture,3,39.63,118.89,South,Jack Anderson,2
+TXN10027,2022-11-20,USB-C Hub,Electronics,4,53.23,212.92,South,Carol Davis,5
+TXN10028,2022-03-16,Laptop,Electronics,5,932.7,4663.5,Central,Bob Smith,4
+TXN10029,2022-03-12,Stapler,Office Supplies,6,7.68,46.08,East,Iris Chen,5
+TXN10030,2022-01-09,Pen Set,Office Supplies,4,9.14,36.56,Central,Carol Davis,4
+TXN10031,2022-10-16,Notebook Pack,Office Supplies,7,13.84,96.88,West,Emma Brown,4
+TXN10032,2023-10-12,Desk Lamp,Furniture,1,32.65,32.65,South,Carol Davis,5
+TXN10033,2023-03-14,Notebook Pack,Office Supplies,5,11.48,57.4,East,Frank Miller,4
+TXN10034,2022-02-10,Stapler,Office Supplies,8,7.3,58.4,West,Frank Miller,5
+TXN10035,2022-06-08,Stapler,Office Supplies,6,7.36,44.16,Central,Carol Davis,5
+TXN10036,2023-02-26,Printer Paper,Office Supplies,8,27.72,221.76,South,Bob Smith,4
+TXN10037,2023-04-17,Webcam HD,Electronics,2,87.68,175.36,South,David Wilson,4
+TXN10038,2022-12-26,Notebook Pack,Office Supplies,21,13.69,287.49,South,Alice Johnson,3
+TXN10039,2022-09-29,Laptop,Electronics,3,926.06,2778.18,West,Frank Miller,4
+TXN10040,2022-07-14,Mechanical Keyboard,Electronics,1,138.13,138.13,East,Iris Chen,5
+TXN10041,2023-03-18,Wireless Mouse,Electronics,3,31.47,94.41,West,Bob Smith,5
+TXN10042,2023-02-17,Pen Set,Office Supplies,7,9.14,63.98,East,Grace Lee,5
+TXN10043,2023-07-16,Printer Paper,Office Supplies,7,23.52,164.64,East,Jack Anderson,4
+TXN10044,2023-06-08,Desk Lamp,Furniture,3,39.2,117.6,North,Bob Smith,4
+TXN10045,2022-08-29,Pen Set,Office Supplies,7,8.25,57.75,North,Alice Johnson,4
+TXN10046,2023-03-01,Stapler,Office Supplies,13,8.17,106.21,East,David Wilson,3
+TXN10047,2022-04-20,Printer Paper,Office Supplies,17,22.88,388.96,East,Iris Chen,4
+TXN10048,2023-11-15,Whiteboard,Office Supplies,18,47.31,851.58,West,Iris Chen,4
+TXN10049,2023-05-02,Desk Lamp,Furniture,3,37.63,112.89,South,Iris Chen,4
+TXN10050,2022-08-29,Mechanical Keyboard,Electronics,5,122.96,614.8,North,Carol Davis,4
+TXN10051,2023-02-22,Webcam HD,Electronics,1,79.17,79.17,South,Grace Lee,
+TXN10052,2023-08-13,Standing Desk,Furniture,2,383.29,766.58,South,Grace Lee,5
+TXN10053,2023-07-14,Printer Paper,Office Supplies,16,27.97,447.52,South,Grace Lee,4
+TXN10054,2022-06-19,Printer Paper,Office Supplies,20,28.14,562.8,East,Grace Lee,4
+TXN10055,2023-04-18,USB-C Hub,Electronics,3,46.39,139.17,South,Frank Miller,4
+TXN10056,2023-03-08,Mechanical Keyboard,Electronics,1,113.69,113.69,West,Alice Johnson,5
+TXN10057,2023-10-30,Laptop,Electronics,2,773.37,1546.74,North,Alice Johnson,5
+TXN10058,2022-08-12,Desk Lamp,Furniture,2,32.43,64.86,North,Jack Anderson,5
+TXN10059,2022-11-15,Notebook Pack,Office Supplies,20,14.66,293.2,West,Grace Lee,4
+TXN10060,2023-10-05,Mechanical Keyboard,Electronics,3,137.68,413.04,Central,Jack Anderson,
+TXN10061,2023-06-30,Desk Lamp,Furniture,3,33.63,100.89,West,Alice Johnson,5
+TXN10062,2023-10-13,Stapler,Office Supplies,5,7.89,39.45,East,Iris Chen,5
+TXN10063,2023-05-11,Desk Lamp,Furniture,3,38.41,115.23,South,David Wilson,5
+TXN10064,2023-04-21,Notebook Pack,Office Supplies,11,13.65,150.15,North,Frank Miller,3
+TXN10065,2023-09-03,Pen Set,Office Supplies,1,8.39,8.39,East,David Wilson,3
+TXN10066,2023-12-09,Pen Set,Office Supplies,3,8.97,26.91,North,David Wilson,4
+TXN10067,2023-07-21,Notebook Pack,Office Supplies,18,12.7,228.6,South,Henry Taylor,4
+TXN10068,2022-05-03,Pen Set,Office Supplies,6,10.21,61.26,North,Henry Taylor,4
+TXN10069,2022-04-13,Printer Paper,Office Supplies,12,23.46,281.52,North,Alice Johnson,5
+TXN10070,2022-10-27,Pen Set,Office Supplies,16,7.98,127.68,North,Alice Johnson,4
+TXN10071,2022-02-22,Mechanical Keyboard,Electronics,1,144.1,144.1,Central,Grace Lee,4
+TXN10072,2023-07-31,Stapler,Office Supplies,8,7.0,56.0,North,Grace Lee,4
+TXN10073,2023-04-07,Stapler,Office Supplies,19,7.5,142.5,Central,Emma Brown,4
+TXN10074,2022-08-01,Notebook Pack,Office Supplies,3,12.07,36.21,North,Carol Davis,4
+TXN10075,2023-04-27,Monitor 27inch,Electronics,3,321.8,965.4,West,Henry Taylor,3
+TXN10076,2023-08-27,Pen Set,Office Supplies,14,10.16,142.24,North,David Wilson,5
+TXN10077,2022-06-19,Printer Paper,Office Supplies,19,25.7,488.3,Central,Henry Taylor,3
+TXN10078,2023-05-28,Notebook Pack,Office Supplies,20,12.75,255.0,North,,5
+TXN10079,2023-11-22,Notebook Pack,Office Supplies,12,11.12,133.44,East,Carol Davis,4
+TXN10080,2023-08-23,Desk Lamp,Furniture,1,38.29,38.29,East,Grace Lee,4
+TXN10081,2023-12-12,Monitor 27inch,Electronics,7,396.73,2777.11,North,Bob Smith,4
+TXN10082,2023-06-11,Printer Paper,Office Supplies,18,21.25,382.5,East,Alice Johnson,3
+TXN10083,2022-02-22,USB-C Hub,Electronics,3,50.73,152.19,East,Henry Taylor,3
+TXN10084,2022-06-12,Webcam HD,Electronics,4,68.32,273.28,North,Bob Smith,4
+TXN10085,2022-10-26,Notebook Pack,Office Supplies,16,12.11,193.76,Central,David Wilson,4
+TXN10086,2022-05-20,Printer Paper,Office Supplies,14,,326.34,South,Iris Chen,4
+TXN10087,2023-08-17,Whiteboard,Office Supplies,5,45.85,229.25,East,Henry Taylor,4
+TXN10088,2022-11-26,Whiteboard,Office Supplies,14,42.39,593.46,South,Grace Lee,2
+TXN10089,2023-01-31,Whiteboard,Office Supplies,5,50.02,250.1,East,Alice Johnson,3
+TXN10090,2023-03-27,Wireless Mouse,Electronics,1,33.68,33.68,West,Grace Lee,5
+TXN10091,2022-09-29,Webcam HD,Electronics,1,84.61,84.61,Central,Iris Chen,4
+TXN10092,2023-07-09,Laptop,Electronics,3,783.46,2350.38,Central,Bob Smith,4
+TXN10093,2023-03-31,USB-C Hub,Electronics,1,46.98,46.98,North,Alice Johnson,4
+TXN10094,2023-08-03,Pen Set,Office Supplies,6,8.13,48.78,North,Grace Lee,4
+TXN10095,2023-04-18,Notebook Pack,Office Supplies,1,12.83,12.83,Central,Henry Taylor,5
+TXN10096,2022-12-20,Webcam HD,Electronics,6,91.08,546.48,East,Emma Brown,3
+TXN10097,2023-08-09,Office Chair,Furniture,3,234.68,704.04,South,Grace Lee,4
+TXN10098,2022-02-20,Stapler,Office Supplies,10,8.58,85.8,Central,David Wilson,4
+TXN10099,2023-11-26,Pen Set,Office Supplies,8,9.48,75.84,West,Alice Johnson,4
+TXN10100,2022-04-03,Stapler,Office Supplies,14,7.57,105.98,North,Carol Davis,5
+TXN10101,2022-10-07,Printer Paper,Office Supplies,16,23.17,370.72,Central,Emma Brown,5
+TXN10102,2022-05-25,Pen Set,Office Supplies,13,8.25,107.25,Central,,4
+TXN10103,2023-04-11,Office Chair,Furniture,2,268.67,537.34,East,,3
+TXN10104,2023-07-29,Webcam HD,Electronics,1,82.63,82.63,West,Henry Taylor,5
+TXN10105,2022-02-08,Webcam HD,Electronics,1,79.81,79.81,South,Iris Chen,3
+TXN10106,2023-07-08,Desk Lamp,Furniture,1,37.53,37.53,Central,Bob Smith,5
+TXN10107,2023-12-08,USB-C Hub,Electronics,4,49.16,196.64,Central,Bob Smith,5
+TXN10108,2022-03-04,Desk Lamp,Furniture,1,31.73,31.73,Central,Henry Taylor,3
+TXN10109,2022-02-21,Printer Paper,Office Supplies,5,23.07,115.35,Central,David Wilson,2
+TXN10110,2022-08-27,Webcam HD,Electronics,5,71.53,357.65,North,Carol Davis,5
+TXN10111,2022-01-27,Wireless Mouse,Electronics,2,28.71,57.42,East,Alice Johnson,3
+TXN10112,2022-03-07,Desk Lamp,Furniture,3,37.91,113.73,East,Henry Taylor,4
+TXN10113,2023-11-06,Webcam HD,Electronics,4,83.43,333.72,North,Henry Taylor,5
+TXN10114,2023-03-31,Wireless Mouse,Electronics,5,26.22,131.1,North,Carol Davis,4
+TXN10115,2023-09-04,Notebook Pack,Office Supplies,20,12.81,256.2,East,Bob Smith,5
+TXN10116,2022-08-09,Desk Lamp,Furniture,2,39.06,78.12,South,Henry Taylor,4
+TXN10117,2022-09-19,Office Chair,Furniture,2,223.94,447.88,North,Bob Smith,3
+TXN10118,2023-07-24,Wireless Mouse,Electronics,5,34.1,170.5,South,Bob Smith,4
+TXN10119,2022-02-22,Whiteboard,Office Supplies,12,47.38,568.56,North,Iris Chen,3
+TXN10120,2023-07-24,Office Chair,Furniture,3,269.68,809.04,South,Grace Lee,5
+TXN10121,2023-10-21,Notebook Pack,Office Supplies,9,13.41,120.69,North,Emma Brown,
+TXN10122,2022-05-27,Notebook Pack,Office Supplies,5,12.6,63.0,West,Alice Johnson,3
+TXN10123,2022-06-11,Office Chair,Furniture,3,266.61,799.83,East,Alice Johnson,3
+TXN10124,2023-03-30,Pen Set,Office Supplies,15,8.95,134.25,East,David Wilson,5
+TXN10125,2023-11-26,Filing Cabinet,Furniture,4,157.51,630.04,South,Jack Anderson,2
+TXN10126,2022-09-19,Monitor 27inch,Electronics,4,310.09,1240.36,West,Carol Davis,3
+TXN10127,2023-11-16,Wireless Mouse,Electronics,3,33.24,99.72,East,Henry Taylor,5
+TXN10128,2023-12-28,Desk Lamp,Furniture,4,30.95,123.8,Central,Carol Davis,5
+TXN10129,2022-04-01,Desk Lamp,Furniture,2,30.85,61.7,East,Iris Chen,3
+TXN10130,2022-06-22,Wireless Mouse,Electronics,5,31.19,155.95,East,Frank Miller,4
+TXN10131,2022-04-16,Wireless Mouse,Electronics,5,27.27,136.35,North,Bob Smith,3
+TXN10132,2023-08-17,Desk Lamp,Furniture,3,39.44,118.32,West,Jack Anderson,4
+TXN10133,2023-04-26,Desk Lamp,Furniture,2,32.92,65.84,East,Frank Miller,4
+TXN10134,2022-10-21,Wireless Mouse,Electronics,1,33.27,33.27,West,Iris Chen,4
+TXN10135,2022-02-12,Desk Lamp,Furniture,3,38.24,114.72,North,Jack Anderson,4
+TXN10136,2022-12-18,Wireless Mouse,Electronics,4,31.3,125.2,South,Henry Taylor,5
+TXN10137,2022-10-17,Standing Desk,Furniture,3,487.04,1461.12,East,Frank Miller,2
+TXN10138,2023-11-04,Stapler,Office Supplies,22,7.59,166.98,West,Frank Miller,4
+TXN10139,2023-12-27,Webcam HD,Electronics,4,77.03,308.12,Central,Iris Chen,
+TXN10140,2022-11-13,Stapler,Office Supplies,17,7.61,129.37,North,Carol Davis,3
+TXN10141,2023-07-07,Printer Paper,Office Supplies,2,27.87,55.74,West,Jack Anderson,3
+TXN10142,2023-10-02,Printer Paper,Office Supplies,15,22.48,337.2,North,Frank Miller,5
+TXN10143,2023-04-05,USB-C Hub,Electronics,4,46.08,184.32,Central,David Wilson,4
+TXN10144,2022-10-16,Printer Paper,Office Supplies,14,25.01,350.14,Central,David Wilson,5
+TXN10145,2023-01-16,Notebook Pack,Office Supplies,17,11.44,194.48,Central,Emma Brown,3
+TXN10146,2023-03-24,Wireless Mouse,Electronics,4,33.68,134.72,Central,Alice Johnson,4
+TXN10147,2022-03-25,Office Chair,Furniture,1,214.61,214.61,Central,Frank Miller,5
+TXN10148,2023-12-14,Pen Set,Office Supplies,21,8.91,187.11,North,Bob Smith,1
+TXN10149,2023-09-16,Notebook Pack,Office Supplies,10,11.47,114.7,South,Bob Smith,2
+TXN10150,2022-04-24,Printer Paper,Office Supplies,18,24.99,449.82,North,Iris Chen,
+TXN10151,2022-12-28,Notebook Pack,Office Supplies,4,11.77,47.08,East,Frank Miller,2
+TXN10152,2023-07-22,Laptop,Electronics,1,,1000.79,West,Frank Miller,4
+TXN10153,2023-11-04,Wireless Mouse,Electronics,6,30.73,184.38,North,Frank Miller,4
+TXN10154,2023-04-21,Whiteboard,Office Supplies,6,45.69,274.14,Central,Bob Smith,5
+TXN10155,2022-07-24,Stapler,Office Supplies,10,7.55,75.5,East,Iris Chen,4
+TXN10156,2022-02-18,Printer Paper,Office Supplies,4,23.73,94.92,Central,Grace Lee,5
+TXN10157,2022-07-11,Filing Cabinet,Furniture,3,149.88,449.64,South,Bob Smith,5
+TXN10158,2023-07-13,Monitor 27inch,Electronics,3,308.26,924.78,West,Emma Brown,4
+TXN10159,2023-04-03,Laptop,Electronics,3,999.9,2999.7,West,Grace Lee,4
+TXN10160,2023-10-15,Desk Lamp,Furniture,3,35.13,105.39,West,Alice Johnson,
+TXN10161,2022-03-10,Mechanical Keyboard,Electronics,3,135.65,406.95,East,Jack Anderson,2
+TXN10162,2023-03-31,Pen Set,Office Supplies,17,9.19,156.23,South,Frank Miller,5
+TXN10163,2023-05-27,Notebook Pack,Office Supplies,4,14.6,58.4,South,Emma Brown,5
+TXN10164,2023-05-18,USB-C Hub,Electronics,1,44.53,44.53,East,Henry Taylor,5
+TXN10165,2023-11-15,Pen Set,Office Supplies,12,9.12,109.44,Central,Carol Davis,5
+TXN10166,2023-06-05,USB-C Hub,Electronics,2,57.27,114.54,South,Henry Taylor,2
+TXN10167,2023-07-19,Wireless Mouse,Electronics,1,33.45,33.45,South,Henry Taylor,4
+TXN10168,2022-11-21,Wireless Mouse,Electronics,8,29.68,237.44,South,Iris Chen,5
+TXN10169,2022-02-26,Printer Paper,Office Supplies,10,25.13,251.3,North,Frank Miller,5
+TXN10170,2022-10-18,Printer Paper,Office Supplies,18,23.12,416.16,South,Emma Brown,4
+TXN10171,2023-08-18,Wireless Mouse,Electronics,5,31.42,157.1,South,Jack Anderson,2
+TXN10172,2023-08-14,Mechanical Keyboard,Electronics,5,118.71,593.55,East,Alice Johnson,4
+TXN10173,2023-05-10,Mechanical Keyboard,Electronics,4,141.98,567.92,South,Bob Smith,5
+TXN10174,2022-12-15,Wireless Mouse,Electronics,6,33.24,199.44,West,Frank Miller,5
+TXN10175,2022-11-23,Desk Lamp,Furniture,2,32.55,65.1,North,Alice Johnson,4
+TXN10176,2022-06-13,Printer Paper,Office Supplies,11,28.24,310.64,North,Carol Davis,4
+TXN10177,2022-01-24,Wireless Mouse,Electronics,4,29.03,116.12,Central,David Wilson,4
+TXN10178,2023-11-01,Desk Lamp,Furniture,4,35.38,141.52,East,Emma Brown,5
+TXN10179,2023-08-07,Notebook Pack,Office Supplies,10,12.45,124.5,North,Iris Chen,4
+TXN10180,2023-09-18,Wireless Mouse,Electronics,4,34.26,137.04,South,Frank Miller,4
+TXN10181,2023-02-16,Notebook Pack,Office Supplies,5,11.22,56.1,West,Henry Taylor,4
+TXN10182,2023-09-20,Webcam HD,Electronics,5,77.42,387.1,West,Emma Brown,4
+TXN10183,2023-07-31,Webcam HD,Electronics,3,87.57,262.71,South,Bob Smith,5
+TXN10184,2023-12-06,Laptop,Electronics,8,893.13,7145.04,East,Alice Johnson,4
+TXN10185,2023-01-25,Wireless Mouse,Electronics,1,31.62,31.62,East,Bob Smith,3
+TXN10186,2022-07-28,Desk Lamp,Furniture,2,37.88,75.76,Central,Alice Johnson,5
+TXN10187,2023-05-05,Notebook Pack,Office Supplies,6,12.26,73.56,East,Iris Chen,4
+TXN10188,2023-10-21,Printer Paper,Office Supplies,16,23.22,371.52,North,David Wilson,4
+TXN10189,2022-10-23,Pen Set,Office Supplies,16,9.5,152.0,South,Frank Miller,4
+TXN10190,2023-08-11,Pen Set,Office Supplies,13,8.67,112.71,Central,Carol Davis,4
+TXN10191,2023-03-29,Pen Set,Office Supplies,7,9.66,67.62,South,Iris Chen,4
+TXN10192,2023-08-24,Mechanical Keyboard,Electronics,5,112.47,562.35,South,David Wilson,2
+TXN10193,2022-05-21,Laptop,Electronics,2,913.59,1827.18,East,Henry Taylor,4
+TXN10194,2023-10-24,Wireless Mouse,Electronics,5,32.41,162.05,South,Alice Johnson,5
+TXN10195,2022-02-07,Whiteboard,Office Supplies,16,,713.12,North,Emma Brown,5
+TXN10196,2022-12-10,Desk Lamp,Furniture,5,36.47,182.35,East,Carol Davis,5
+TXN10197,2022-06-16,Pen Set,Office Supplies,6,9.39,56.34,North,Frank Miller,5
+TXN10198,2023-10-17,Stapler,Office Supplies,17,8.77,149.09,South,Grace Lee,5
+TXN10199,2022-09-12,Laptop,Electronics,4,868.56,3474.24,Central,,4
+TXN10200,2023-12-11,Wireless Mouse,Electronics,4,26.56,106.24,North,Iris Chen,5
+TXN10201,2023-10-17,Stapler,Office Supplies,20,7.5,150.0,South,Carol Davis,4
+TXN10202,2023-12-20,Stapler,Office Supplies,10,8.61,86.1,Central,Jack Anderson,5
+TXN10203,2022-03-21,Stapler,Office Supplies,18,7.06,127.08,Central,David Wilson,4
+TXN10204,2022-04-30,Pen Set,Office Supplies,16,9.58,153.28,North,Iris Chen,4
+TXN10205,2023-08-01,Wireless Mouse,Electronics,3,,88.95,West,Grace Lee,4
+TXN10206,2023-03-10,Webcam HD,Electronics,1,69.52,69.52,Central,Bob Smith,5
+TXN10207,2022-05-19,Pen Set,Office Supplies,14,10.28,143.92,South,Grace Lee,4
+TXN10208,2023-11-09,Wireless Mouse,Electronics,4,33.23,132.92,North,Iris Chen,4
+TXN10209,2022-01-24,Whiteboard,Office Supplies,18,45.48,818.64,East,Grace Lee,5
+TXN10210,2022-04-26,Laptop,Electronics,5,943.24,4716.2,Central,Alice Johnson,4
+TXN10211,2023-11-20,Printer Paper,Office Supplies,5,23.08,115.4,East,David Wilson,4
+TXN10212,2022-10-24,USB-C Hub,Electronics,5,56.23,281.15,South,Jack Anderson,5
+TXN10213,2023-11-08,USB-C Hub,Electronics,4,47.0,188.0,East,Jack Anderson,5
+TXN10214,2023-05-23,Laptop,Electronics,4,857.98,3431.92,Central,Frank Miller,5
+TXN10215,2023-07-05,Desk Lamp,Furniture,2,38.66,77.32,Central,Carol Davis,5
+TXN10216,2023-07-25,Notebook Pack,Office Supplies,9,12.56,113.04,South,Bob Smith,5
+TXN10217,2022-07-15,Wireless Mouse,Electronics,5,28.88,144.4,West,Bob Smith,3
+TXN10218,2023-05-06,USB-C Hub,Electronics,3,56.09,168.27,Central,Alice Johnson,3
+TXN10219,2023-05-06,Stapler,Office Supplies,7,8.46,59.22,East,David Wilson,4
+TXN10220,2023-01-03,Webcam HD,Electronics,4,76.62,306.48,East,Henry Taylor,5
+TXN10221,2022-02-16,Notebook Pack,Office Supplies,5,11.9,59.5,North,Iris Chen,5
+TXN10222,2022-12-04,Office Chair,Furniture,3,274.99,824.97,East,Frank Miller,4
+TXN10223,2023-05-18,Desk Lamp,Furniture,2,37.43,74.86,North,Iris Chen,4
+TXN10224,2022-03-02,Notebook Pack,Office Supplies,3,14.31,42.93,Central,Alice Johnson,5
+TXN10225,2023-12-26,Laptop,Electronics,4,901.54,3606.16,North,,5
+TXN10226,2023-02-26,Laptop,Electronics,3,907.93,2723.79,East,Emma Brown,1
+TXN10227,2022-07-03,Wireless Mouse,Electronics,2,26.36,52.72,South,Jack Anderson,4
+TXN10228,2023-01-18,Stapler,Office Supplies,8,7.89,63.12,Central,David Wilson,4
+TXN10229,2023-10-28,Pen Set,Office Supplies,13,,102.57,South,Henry Taylor,2
+TXN10230,2023-03-21,Pen Set,Office Supplies,4,8.53,34.12,Central,Alice Johnson,4
+TXN10231,2022-10-05,Laptop,Electronics,3,785.07,2355.21,Central,Jack Anderson,
+TXN10232,2022-08-01,Notebook Pack,Office Supplies,13,13.97,181.61,Central,Emma Brown,3
+TXN10233,2023-07-08,Webcam HD,Electronics,2,86.12,172.24,Central,Bob Smith,4
+TXN10234,2022-03-19,Webcam HD,Electronics,5,86.45,432.25,East,Frank Miller,2
+TXN10235,2022-12-31,Stapler,Office Supplies,22,7.83,172.26,West,Bob Smith,5
+TXN10236,2022-10-02,Wireless Mouse,Electronics,2,31.89,63.78,West,Frank Miller,4
+TXN10237,2022-10-04,Wireless Mouse,Electronics,4,26.28,105.12,East,Iris Chen,4
+TXN10238,2023-09-04,Notebook Pack,Office Supplies,13,12.31,160.03,North,Grace Lee,4
+TXN10239,2022-09-06,Notebook Pack,Office Supplies,13,11.7,152.1,North,Emma Brown,4
+TXN10240,2023-03-08,Webcam HD,Electronics,3,86.77,260.31,South,David Wilson,5
+TXN10241,2022-05-19,Webcam HD,Electronics,3,90.76,272.28,Central,Grace Lee,5
+TXN10242,2023-10-29,Whiteboard,Office Supplies,11,40.97,450.67,West,David Wilson,4
+TXN10243,2023-12-13,Filing Cabinet,Furniture,4,153.4,613.6,South,Emma Brown,5
+TXN10244,2023-08-30,Whiteboard,Office Supplies,18,41.57,748.26,North,Henry Taylor,5
+TXN10245,2022-03-12,Printer Paper,Office Supplies,14,27.21,380.94,West,Carol Davis,5
+TXN10246,2023-01-22,Wireless Mouse,Electronics,4,34.4,137.6,East,Iris Chen,4
+TXN10247,2023-01-04,Pen Set,Office Supplies,20,9.83,196.6,West,Bob Smith,3
+TXN10248,2023-09-20,Laptop,Electronics,4,1030.56,4122.24,Central,,5
+TXN10249,2023-06-07,Pen Set,Office Supplies,19,9.15,173.85,South,Frank Miller,4
+TXN10250,2022-12-20,Filing Cabinet,Furniture,2,140.79,281.58,North,Carol Davis,4
+TXN10251,2022-12-23,Wireless Mouse,Electronics,6,31.99,191.94,South,,2
+TXN10252,2022-04-22,Pen Set,Office Supplies,8,8.08,64.64,East,Iris Chen,3
+TXN10253,2023-02-19,Notebook Pack,Office Supplies,14,11.77,164.78,East,Jack Anderson,
+TXN10254,2022-08-08,USB-C Hub,Electronics,1,53.77,53.77,East,Iris Chen,3
+TXN10255,2023-05-17,Notebook Pack,Office Supplies,20,13.53,270.6,East,Grace Lee,4
+TXN10256,2023-11-21,Printer Paper,Office Supplies,22,28.13,618.86,North,Carol Davis,4
+TXN10257,2022-05-25,Notebook Pack,Office Supplies,5,12.67,63.35,East,Grace Lee,3
+TXN10258,2022-06-27,Notebook Pack,Office Supplies,5,12.95,64.75,North,Henry Taylor,4
+TXN10259,2022-07-19,Printer Paper,Office Supplies,17,28.47,483.99,West,Grace Lee,5
+TXN10260,2022-03-26,Notebook Pack,Office Supplies,8,14.14,113.12,South,Emma Brown,4
+TXN10261,2023-05-23,Notebook Pack,Office Supplies,4,11.48,45.92,South,Iris Chen,
+TXN10262,2023-03-28,Notebook Pack,Office Supplies,4,14.9,59.6,West,David Wilson,4
+TXN10263,2022-03-31,Desk Lamp,Furniture,1,40.18,40.18,South,Jack Anderson,5
+TXN10264,2023-09-23,Wireless Mouse,Electronics,2,27.35,54.7,Central,Jack Anderson,4
+TXN10265,2023-12-22,Monitor 27inch,Electronics,7,325.56,2278.92,Central,Bob Smith,3
+TXN10266,2022-10-11,Printer Paper,Office Supplies,5,22.19,110.95,South,Frank Miller,5
+TXN10267,2023-08-15,Notebook Pack,Office Supplies,13,13.49,175.37,East,Bob Smith,4
+TXN10268,2023-04-11,Stapler,Office Supplies,1,7.58,7.58,Central,Bob Smith,5
+TXN10269,2022-03-06,Printer Paper,Office Supplies,14,24.22,339.08,Central,Henry Taylor,4
+TXN10270,2023-08-03,Printer Paper,Office Supplies,2,27.15,54.3,North,Henry Taylor,1
+TXN10271,2023-03-15,USB-C Hub,Electronics,2,52.82,105.64,Central,Emma Brown,3
+TXN10272,2022-09-14,Wireless Mouse,Electronics,2,31.47,62.94,North,Emma Brown,5
+TXN10273,2022-04-08,Laptop,Electronics,2,,1787.46,East,Iris Chen,5
+TXN10274,2023-03-09,Pen Set,Office Supplies,8,8.93,71.44,East,Bob Smith,3
+TXN10275,2022-05-17,Pen Set,Office Supplies,3,9.47,28.41,East,Alice Johnson,4
+TXN10276,2022-06-05,Stapler,Office Supplies,15,8.27,124.05,Central,Bob Smith,5
+TXN10277,2022-12-26,Webcam HD,Electronics,5,71.35,356.75,West,David Wilson,4
+TXN10278,2023-12-09,Printer Paper,Office Supplies,11,26.18,287.98,South,Jack Anderson,4
+TXN10279,2022-09-03,Filing Cabinet,Furniture,2,132.56,265.12,West,Bob Smith,4
+TXN10280,2022-05-16,Standing Desk,Furniture,2,495.75,991.5,South,Carol Davis,
+TXN10281,2022-03-11,Laptop,Electronics,1,823.24,823.24,Central,Grace Lee,4
+TXN10282,2023-12-20,Wireless Mouse,Electronics,7,30.32,212.24,North,Bob Smith,4
+TXN10283,2023-07-04,Webcam HD,Electronics,1,82.06,82.06,South,Grace Lee,5
+TXN10284,2023-03-21,Wireless Mouse,Electronics,1,31.0,31.0,South,Carol Davis,3
+TXN10285,2022-12-22,Notebook Pack,Office Supplies,12,14.25,171.0,North,Carol Davis,5
+TXN10286,2022-01-31,Webcam HD,Electronics,5,78.29,391.45,North,Jack Anderson,5
+TXN10287,2023-08-04,USB-C Hub,Electronics,1,44.85,44.85,Central,Bob Smith,4
+TXN10288,2022-09-08,Laptop,Electronics,2,863.26,1726.52,North,Alice Johnson,4
+TXN10289,2022-11-26,Desk Lamp,Furniture,3,37.3,111.9,Central,Jack Anderson,4
+TXN10290,2023-06-13,Whiteboard,Office Supplies,3,52.25,156.75,Central,Emma Brown,5
+TXN10291,2023-01-13,USB-C Hub,Electronics,3,50.95,152.85,West,David Wilson,4
+TXN10292,2022-07-20,Pen Set,Office Supplies,8,9.12,72.96,North,Grace Lee,2
+TXN10293,2022-01-10,Stapler,Office Supplies,13,6.8,88.4,Central,Emma Brown,3
+TXN10294,2022-03-03,Whiteboard,Office Supplies,9,41.06,369.54,North,David Wilson,5
+TXN10295,2022-03-28,Notebook Pack,Office Supplies,13,13.01,169.13,North,Jack Anderson,2
+TXN10296,2022-11-19,Pen Set,Office Supplies,13,9.62,125.06,East,David Wilson,3
+TXN10297,2022-06-09,Wireless Mouse,Electronics,3,29.54,88.62,East,Iris Chen,4
+TXN10298,2022-05-03,Wireless Mouse,Electronics,3,32.76,98.28,Central,Jack Anderson,2
+TXN10299,2022-09-12,Whiteboard,Office Supplies,2,44.56,89.12,West,Emma Brown,5
+TXN10300,2023-07-24,Pen Set,Office Supplies,15,8.32,124.8,North,Carol Davis,3
+TXN10301,2022-07-22,Printer Paper,Office Supplies,3,24.03,72.09,East,Emma Brown,5
+TXN10302,2023-10-24,Desk Lamp,Furniture,2,31.09,62.18,North,Henry Taylor,2
+TXN10303,2023-05-24,Laptop,Electronics,2,949.46,1898.92,South,Carol Davis,4
+TXN10304,2023-09-24,Mechanical Keyboard,Electronics,4,122.0,488.0,Central,Henry Taylor,2
+TXN10305,2023-06-23,Mechanical Keyboard,Electronics,5,149.26,746.3,Central,Grace Lee,5
+TXN10306,2023-08-03,Notebook Pack,Office Supplies,6,12.56,75.36,North,Jack Anderson,3
+TXN10307,2023-04-29,Notebook Pack,Office Supplies,8,14.03,112.24,Central,Bob Smith,4
+TXN10308,2022-02-27,Pen Set,Office Supplies,19,10.2,193.8,Central,Grace Lee,4
+TXN10309,2023-08-30,Webcam HD,Electronics,3,85.7,257.1,Central,Alice Johnson,5
+TXN10310,2022-07-12,Printer Paper,Office Supplies,16,27.32,437.12,East,Carol Davis,4
+TXN10311,2023-06-24,Desk Lamp,Furniture,3,33.22,99.66,South,Carol Davis,4
+TXN10312,2022-03-02,Laptop,Electronics,2,923.37,1846.74,Central,Iris Chen,5
+TXN10313,2023-02-10,Notebook Pack,Office Supplies,11,12.35,135.85,North,Carol Davis,5
+TXN10314,2022-11-21,Pen Set,Office Supplies,21,9.16,192.36,Central,David Wilson,5
+TXN10315,2022-10-29,Wireless Mouse,Electronics,5,32.05,160.25,East,Jack Anderson,2
+TXN10316,2022-08-15,Pen Set,Office Supplies,16,7.92,126.72,North,Bob Smith,4
+TXN10317,2022-04-01,Printer Paper,Office Supplies,11,26.26,288.86,East,Emma Brown,3
+TXN10318,2022-01-02,Wireless Mouse,Electronics,4,29.43,117.72,Central,Grace Lee,4
+TXN10319,2023-05-06,Printer Paper,Office Supplies,8,25.58,204.64,North,,5
+TXN10320,2022-04-18,Wireless Mouse,Electronics,4,27.02,108.08,North,Bob Smith,4
+TXN10321,2023-09-21,Stapler,Office Supplies,14,8.48,118.72,Central,Carol Davis,4
+TXN10322,2022-07-14,Desk Lamp,Furniture,3,35.56,106.68,East,Emma Brown,4
+TXN10323,2023-05-18,Wireless Mouse,Electronics,4,28.74,114.96,North,Jack Anderson,4
+TXN10324,2022-03-25,Desk Lamp,Furniture,2,30.95,61.9,East,Emma Brown,3
+TXN10325,2023-01-14,USB-C Hub,Electronics,4,43.16,172.64,East,David Wilson,5
+TXN10326,2022-04-10,Wireless Mouse,Electronics,5,28.58,142.9,East,Jack Anderson,4
+TXN10327,2023-07-03,Pen Set,Office Supplies,19,10.17,193.23,Central,Henry Taylor,
+TXN10328,2023-08-08,Stapler,Office Supplies,20,8.71,174.2,North,Henry Taylor,3
+TXN10329,2022-05-10,Laptop,Electronics,4,786.15,3144.6,South,Carol Davis,5
+TXN10330,2022-03-10,Wireless Mouse,Electronics,5,30.5,152.5,South,,4
+TXN10331,2023-08-25,Notebook Pack,Office Supplies,14,12.68,177.52,North,Jack Anderson,4
+TXN10332,2023-07-31,Printer Paper,Office Supplies,18,27.13,488.34,Central,Grace Lee,4
+TXN10333,2022-06-26,Monitor 27inch,Electronics,5,312.6,1563.0,West,Grace Lee,2
+TXN10334,2023-05-02,Stapler,Office Supplies,1,8.94,8.94,South,Emma Brown,4
+TXN10335,2022-08-22,Wireless Mouse,Electronics,4,34.26,137.04,Central,Frank Miller,4
+TXN10336,2022-08-05,Stapler,Office Supplies,16,7.77,124.32,Central,Frank Miller,5
+TXN10337,2023-06-03,Desk Lamp,Furniture,3,37.93,113.79,Central,Alice Johnson,3
+TXN10338,2022-02-03,Desk Lamp,Furniture,3,39.38,118.14,North,Frank Miller,5
+TXN10339,2022-02-01,Mechanical Keyboard,Electronics,4,129.55,518.2,North,Henry Taylor,4
+TXN10340,2023-12-07,Monitor 27inch,Electronics,3,338.08,1014.24,Central,David Wilson,5
+TXN10341,2023-02-24,Notebook Pack,Office Supplies,1,14.41,14.41,East,,5
+TXN10342,2022-11-09,Stapler,Office Supplies,17,8.33,141.61,Central,Frank Miller,4
+TXN10343,2023-10-01,Desk Lamp,Furniture,3,30.82,92.46,Central,Frank Miller,4
+TXN10344,2023-05-09,Wireless Mouse,Electronics,3,34.38,103.14,Central,Emma Brown,5
+TXN10345,2023-06-14,Pen Set,Office Supplies,20,10.07,201.4,East,Frank Miller,5
+TXN10346,2022-09-23,Stapler,Office Supplies,2,7.76,15.52,East,Jack Anderson,5
+TXN10347,2023-10-16,Printer Paper,Office Supplies,12,28.04,336.48,East,Carol Davis,5
+TXN10348,2022-05-12,Pen Set,Office Supplies,18,9.6,172.8,Central,Carol Davis,5
+TXN10349,2022-08-17,Pen Set,Office Supplies,11,8.47,93.17,South,Jack Anderson,4
+TXN10350,2023-08-21,Notebook Pack,Office Supplies,16,13.46,215.36,Central,Iris Chen,3
+TXN10351,2022-06-04,Wireless Mouse,Electronics,4,27.29,109.16,Central,Henry Taylor,3
+TXN10352,2022-12-07,Whiteboard,Office Supplies,5,43.42,217.1,North,Emma Brown,3
+TXN10353,2022-04-01,Wireless Mouse,Electronics,4,29.39,117.56,East,Henry Taylor,4
+TXN10354,2022-01-15,Stapler,Office Supplies,17,8.61,146.37,North,Alice Johnson,5
+TXN10355,2022-05-13,Wireless Mouse,Electronics,3,30.02,90.06,North,Alice Johnson,4
+TXN10356,2022-12-12,Stapler,Office Supplies,13,9.18,119.34,Central,Henry Taylor,4
+TXN10357,2023-02-18,Laptop,Electronics,2,825.56,1651.12,South,Alice Johnson,4
+TXN10358,2022-02-08,Office Chair,Furniture,3,260.51,781.53,West,Jack Anderson,
+TXN10359,2023-12-08,Desk Lamp,Furniture,4,33.73,134.92,South,,3
+TXN10360,2022-04-14,Pen Set,Office Supplies,20,8.37,167.4,West,Grace Lee,5
+TXN10361,2022-04-27,Printer Paper,Office Supplies,20,24.97,499.4,North,Emma Brown,5
+TXN10362,2022-06-14,Laptop,Electronics,2,,1798.02,West,Henry Taylor,4
+TXN10363,2023-08-11,Pen Set,Office Supplies,3,8.04,24.12,Central,Bob Smith,5
+TXN10364,2022-10-31,Mechanical Keyboard,Electronics,2,112.44,224.88,Central,Emma Brown,4
+TXN10365,2022-02-16,Laptop,Electronics,2,802.36,1604.72,South,Henry Taylor,5
+TXN10366,2022-12-17,Wireless Mouse,Electronics,5,29.09,145.45,South,Grace Lee,5
+TXN10367,2022-06-20,Wireless Mouse,Electronics,1,31.75,31.75,Central,Carol Davis,3
+TXN10368,2023-03-25,USB-C Hub,Electronics,3,48.19,144.57,West,Carol Davis,4
+TXN10369,2022-03-06,Mechanical Keyboard,Electronics,5,122.75,613.75,Central,Jack Anderson,5
+TXN10370,2023-06-16,Notebook Pack,Office Supplies,4,13.77,55.08,East,David Wilson,4
+TXN10371,2023-07-26,Stapler,Office Supplies,1,8.26,8.26,West,Carol Davis,4
+TXN10372,2023-05-19,Webcam HD,Electronics,3,75.93,227.79,North,David Wilson,4
+TXN10373,2023-03-31,Printer Paper,Office Supplies,16,24.6,393.6,East,,5
+TXN10374,2022-02-06,Notebook Pack,Office Supplies,3,11.04,33.12,Central,Jack Anderson,5
+TXN10375,2023-04-13,Stapler,Office Supplies,2,7.66,15.32,Central,Henry Taylor,4
+TXN10376,2023-01-08,Pen Set,Office Supplies,8,7.95,63.6,North,Frank Miller,5
+TXN10377,2023-12-20,Laptop,Electronics,3,809.31,2427.93,Central,Grace Lee,3
+TXN10378,2023-02-07,USB-C Hub,Electronics,2,54.86,109.72,West,Bob Smith,5
+TXN10379,2022-05-07,Printer Paper,Office Supplies,19,,467.78,Central,Carol Davis,5
+TXN10380,2023-03-20,Printer Paper,Office Supplies,17,24.86,422.62,Central,Carol Davis,5
+TXN10381,2023-11-05,Notebook Pack,Office Supplies,16,12.3,196.8,East,Jack Anderson,5
+TXN10382,2022-10-29,Desk Lamp,Furniture,2,31.14,62.28,West,Iris Chen,4
+TXN10383,2023-07-21,Notebook Pack,Office Supplies,20,11.82,236.4,West,Frank Miller,5
+TXN10384,2022-07-02,Notebook Pack,Office Supplies,11,13.75,151.25,West,Frank Miller,4
+TXN10385,2023-11-22,Stapler,Office Supplies,17,8.07,137.19,Central,Iris Chen,3
+TXN10386,2022-10-01,Pen Set,Office Supplies,10,8.08,80.8,West,Carol Davis,5
+TXN10387,2022-02-03,Office Chair,Furniture,3,246.43,739.29,Central,Iris Chen,5
+TXN10388,2023-12-14,Pen Set,Office Supplies,15,7.77,116.55,East,Frank Miller,5
+TXN10389,2023-03-30,Printer Paper,Office Supplies,12,28.07,336.84,Central,Iris Chen,5
+TXN10390,2023-04-05,USB-C Hub,Electronics,2,52.73,105.46,Central,Iris Chen,3
+TXN10391,2022-06-14,Notebook Pack,Office Supplies,11,12.04,132.44,East,Carol Davis,2
+TXN10392,2023-10-03,Notebook Pack,Office Supplies,16,13.62,217.92,Central,Iris Chen,4
+TXN10393,2022-07-08,Notebook Pack,Office Supplies,6,14.11,84.66,East,Iris Chen,4
+TXN10394,2022-12-06,Monitor 27inch,Electronics,7,397.27,2780.89,East,,5
+TXN10395,2023-04-02,Mechanical Keyboard,Electronics,5,135.54,677.7,South,Alice Johnson,5
+TXN10396,2023-01-31,Mechanical Keyboard,Electronics,1,138.72,138.72,Central,Frank Miller,4
+TXN10397,2023-10-30,USB-C Hub,Electronics,1,50.2,50.2,North,Iris Chen,4
+TXN10398,2022-08-07,Printer Paper,Office Supplies,4,24.42,97.68,South,Grace Lee,5
+TXN10399,2023-04-16,Pen Set,Office Supplies,3,7.74,23.22,North,Emma Brown,4
+TXN10400,2023-02-02,Desk Lamp,Furniture,2,33.99,67.98,North,Bob Smith,4
+TXN10401,2023-08-23,Laptop,Electronics,3,994.02,2982.06,Central,Bob Smith,4
+TXN10402,2023-03-25,Standing Desk,Furniture,1,493.48,493.48,East,Iris Chen,3
+TXN10403,2022-10-30,Stapler,Office Supplies,12,7.14,85.68,Central,Alice Johnson,
+TXN10404,2023-09-03,Standing Desk,Furniture,1,456.41,456.41,South,Frank Miller,3
+TXN10405,2022-07-08,USB-C Hub,Electronics,2,55.01,110.02,North,Jack Anderson,5
+TXN10406,2023-04-18,Pen Set,Office Supplies,3,7.84,23.52,South,David Wilson,5
+TXN10407,2023-11-03,Wireless Mouse,Electronics,3,31.07,93.21,South,Henry Taylor,4
+TXN10408,2023-08-04,Office Chair,Furniture,2,236.22,472.44,North,Frank Miller,4
+TXN10409,2023-01-04,Wireless Mouse,Electronics,4,32.09,128.36,East,Frank Miller,5
+TXN10410,2022-03-25,Printer Paper,Office Supplies,5,27.68,138.4,Central,David Wilson,4
+TXN10411,2022-01-20,Printer Paper,Office Supplies,19,25.98,493.62,East,Jack Anderson,3
+TXN10412,2023-07-07,Desk Lamp,Furniture,2,37.88,75.76,East,Jack Anderson,5
+TXN10413,2023-02-11,Office Chair,Furniture,1,213.29,213.29,Central,Jack Anderson,5
+TXN10414,2023-08-03,Stapler,Office Supplies,5,8.37,41.85,West,Henry Taylor,5
+TXN10415,2022-09-28,Office Chair,Furniture,1,215.7,215.7,East,Frank Miller,
+TXN10416,2023-10-27,Webcam HD,Electronics,5,84.88,424.4,West,Emma Brown,5
+TXN10417,2023-11-01,Office Chair,Furniture,3,261.49,784.47,East,Grace Lee,5
+TXN10418,2022-12-20,Printer Paper,Office Supplies,3,27.89,83.67,East,Carol Davis,4
+TXN10419,2022-06-03,USB-C Hub,Electronics,1,47.92,47.92,West,Grace Lee,5
+TXN10420,2022-08-04,Notebook Pack,Office Supplies,14,13.56,189.84,North,Alice Johnson,3
+TXN10421,2023-08-10,Wireless Mouse,Electronics,2,26.99,53.98,East,,4
+TXN10422,2023-11-09,Stapler,Office Supplies,22,7.31,160.82,Central,Henry Taylor,3
+TXN10423,2022-07-06,Notebook Pack,Office Supplies,6,13.03,78.18,West,Frank Miller,5
+TXN10424,2022-05-16,Wireless Mouse,Electronics,5,27.31,136.55,West,Carol Davis,4
+TXN10425,2023-06-29,Notebook Pack,Office Supplies,16,,184.0,West,Jack Anderson,4
+TXN10426,2023-03-18,Notebook Pack,Office Supplies,2,12.48,24.96,West,Grace Lee,4
+TXN10427,2023-08-27,Printer Paper,Office Supplies,19,28.05,532.95,North,Carol Davis,4
+TXN10428,2023-09-05,Stapler,Office Supplies,7,7.77,54.39,North,,4
+TXN10429,2023-12-06,Desk Lamp,Furniture,4,30.86,123.44,West,Emma Brown,4
+TXN10430,2023-11-28,Pen Set,Office Supplies,20,8.76,175.2,East,Frank Miller,4
+TXN10431,2023-12-24,Pen Set,Office Supplies,6,9.95,59.7,West,Henry Taylor,5
+TXN10432,2022-12-13,Notebook Pack,Office Supplies,5,13.71,68.55,North,Alice Johnson,5
+TXN10433,2022-04-01,Wireless Mouse,Electronics,1,27.49,27.49,West,Grace Lee,5
+TXN10434,2023-09-04,Wireless Mouse,Electronics,2,32.45,64.9,West,Henry Taylor,1
+TXN10435,2022-07-19,Laptop,Electronics,5,926.86,4634.3,West,Jack Anderson,
+TXN10436,2022-06-11,Wireless Mouse,Electronics,4,27.97,111.88,South,,4
+TXN10437,2022-04-03,Notebook Pack,Office Supplies,18,13.87,249.66,Central,Frank Miller,4
+TXN10438,2023-04-11,Stapler,Office Supplies,9,8.17,73.53,North,Iris Chen,3
+TXN10439,2023-06-10,Stapler,Office Supplies,19,8.89,168.91,South,Henry Taylor,5
+TXN10440,2023-04-15,Pen Set,Office Supplies,1,10.06,10.06,East,Emma Brown,2
+TXN10441,2022-08-24,Printer Paper,Office Supplies,12,24.33,291.96,East,Alice Johnson,5
+TXN10442,2022-12-17,Notebook Pack,Office Supplies,12,11.74,140.88,South,Jack Anderson,4
+TXN10443,2023-05-26,Pen Set,Office Supplies,8,8.27,66.16,Central,David Wilson,4
+TXN10444,2022-04-20,Wireless Mouse,Electronics,4,26.2,104.8,West,Iris Chen,5
+TXN10445,2023-08-12,Printer Paper,Office Supplies,17,24.92,423.64,South,David Wilson,5
+TXN10446,2023-07-08,Laptop,Electronics,2,858.76,1717.52,East,Bob Smith,
+TXN10447,2022-08-04,Office Chair,Furniture,2,220.05,440.1,West,Emma Brown,3
+TXN10448,2022-12-18,USB-C Hub,Electronics,6,48.85,293.1,West,Frank Miller,4
+TXN10449,2023-08-13,Pen Set,Office Supplies,9,9.84,88.56,Central,Iris Chen,4
+TXN10450,2022-06-03,Desk Lamp,Furniture,2,29.84,59.68,East,Iris Chen,4
+TXN10451,2023-08-05,Wireless Mouse,Electronics,2,26.38,52.76,North,Emma Brown,4
+TXN10452,2023-01-05,Office Chair,Furniture,2,254.3,508.6,South,Grace Lee,3
+TXN10453,2023-08-13,Pen Set,Office Supplies,10,9.09,90.9,South,Iris Chen,4
+TXN10454,2022-10-21,Desk Lamp,Furniture,1,39.78,39.78,West,Frank Miller,4
+TXN10455,2022-03-23,Wireless Mouse,Electronics,3,27.54,82.62,West,Emma Brown,4
+TXN10456,2023-01-07,Pen Set,Office Supplies,15,9.05,135.75,East,Carol Davis,5
+TXN10457,2023-12-19,Wireless Mouse,Electronics,4,26.99,107.96,North,Henry Taylor,4
+TXN10458,2022-03-27,Wireless Mouse,Electronics,1,31.05,31.05,West,Grace Lee,4
+TXN10459,2022-05-15,Notebook Pack,Office Supplies,2,11.71,23.42,West,Frank Miller,5
+TXN10460,2023-07-16,Desk Lamp,Furniture,3,39.92,119.76,East,Jack Anderson,4
+TXN10461,2023-06-21,Pen Set,Office Supplies,12,9.08,108.96,East,David Wilson,5
+TXN10462,2022-11-07,Laptop,Electronics,3,985.14,2955.42,South,Henry Taylor,4
+TXN10463,2022-11-03,Pen Set,Office Supplies,21,9.79,205.59,South,Alice Johnson,4
+TXN10464,2022-09-13,Wireless Mouse,Electronics,4,32.12,128.48,Central,David Wilson,4
+TXN10465,2023-09-20,Printer Paper,Office Supplies,10,26.37,263.7,West,Iris Chen,5
+TXN10466,2022-10-24,Wireless Mouse,Electronics,4,29.59,118.36,South,Jack Anderson,4
+TXN10467,2022-01-23,USB-C Hub,Electronics,3,44.03,132.09,North,Henry Taylor,5
+TXN10468,2022-12-17,Webcam HD,Electronics,5,87.18,435.9,East,Alice Johnson,4
+TXN10469,2023-02-06,Wireless Mouse,Electronics,2,29.72,59.44,Central,Emma Brown,5
+TXN10470,2022-09-12,Standing Desk,Furniture,1,514.11,514.11,West,Alice Johnson,3
+TXN10471,2022-08-02,Desk Lamp,Furniture,2,36.89,73.78,Central,Carol Davis,5
+TXN10472,2022-09-17,Filing Cabinet,Furniture,2,140.94,281.88,Central,David Wilson,
+TXN10473,2022-10-10,Notebook Pack,Office Supplies,8,12.58,100.64,North,Alice Johnson,4
+TXN10474,2022-04-02,Mechanical Keyboard,Electronics,5,129.99,649.95,South,Alice Johnson,2
+TXN10475,2022-05-09,Filing Cabinet,Furniture,3,141.74,425.22,Central,Frank Miller,5
+TXN10476,2023-01-02,Pen Set,Office Supplies,2,8.32,16.64,East,Henry Taylor,4
+TXN10477,2023-07-11,Webcam HD,Electronics,3,85.57,256.71,Central,Jack Anderson,5
+TXN10478,2022-10-30,Printer Paper,Office Supplies,15,25.3,379.5,North,,4
+TXN10479,2023-09-28,Mechanical Keyboard,Electronics,5,138.61,693.05,Central,David Wilson,4
+TXN10480,2022-11-27,Pen Set,Office Supplies,19,7.94,150.86,West,Alice Johnson,5
+TXN10481,2023-05-13,USB-C Hub,Electronics,4,42.97,171.88,West,Iris Chen,5
+TXN10482,2022-03-14,Laptop,Electronics,4,1013.67,4054.68,Central,Bob Smith,4
+TXN10483,2023-03-02,Printer Paper,Office Supplies,2,27.2,54.4,Central,Emma Brown,4
+TXN10484,2022-08-10,Stapler,Office Supplies,8,7.02,56.16,East,David Wilson,3
+TXN10485,2023-07-26,Pen Set,Office Supplies,4,8.76,35.04,Central,Jack Anderson,4
+TXN10486,2022-06-20,Printer Paper,Office Supplies,17,25.36,431.12,South,Carol Davis,4
+TXN10487,2023-07-18,Whiteboard,Office Supplies,12,43.57,522.84,East,Grace Lee,5
+TXN10488,2023-01-20,Pen Set,Office Supplies,9,10.14,91.26,South,Henry Taylor,4
+TXN10489,2023-09-03,Laptop,Electronics,3,801.46,2404.38,North,David Wilson,3
+TXN10490,2022-10-10,Stapler,Office Supplies,19,8.02,152.38,Central,Carol Davis,3
+TXN10491,2023-08-20,Mechanical Keyboard,Electronics,3,120.48,361.44,North,Grace Lee,4
+TXN10492,2023-05-10,USB-C Hub,Electronics,5,54.87,274.35,Central,Bob Smith,4
+TXN10493,2022-03-22,Printer Paper,Office Supplies,11,28.15,309.65,South,Grace Lee,4
+TXN10494,2023-10-31,Printer Paper,Office Supplies,13,28.2,366.6,North,Iris Chen,2
+TXN10495,2022-08-15,Wireless Mouse,Electronics,4,31.55,126.2,Central,Jack Anderson,4
+TXN10496,2022-06-01,Wireless Mouse,Electronics,5,26.23,131.15,West,Iris Chen,4
+TXN10497,2022-05-14,Pen Set,Office Supplies,7,8.94,62.58,East,Jack Anderson,3
+TXN10498,2022-03-15,Mechanical Keyboard,Electronics,5,127.26,636.3,North,Grace Lee,4
+TXN10499,2022-01-25,Pen Set,Office Supplies,12,8.1,97.2,West,Henry Taylor,5
+TXN10500,2023-12-03,Wireless Mouse,Electronics,3,32.05,96.15,North,Alice Johnson,4

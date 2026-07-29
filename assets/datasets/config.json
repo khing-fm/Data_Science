@@ -1,0 +1,39 @@
+{
+  "application": {
+    "name": "DataAnalytics Pro",
+    "version": "2.4.1",
+    "environment": "production",
+    "debug_mode": false
+  },
+  "database": {
+    "host": "db.company.internal",
+    "port": 5432,
+    "name": "analytics_db",
+    "pool_size": 10,
+    "timeout_seconds": 30
+  },
+  "api": {
+    "base_url": "https://api.company.com/v2",
+    "rate_limit": 1000,
+    "timeout_ms": 5000,
+    "retry_attempts": 3
+  },
+  "logging": {
+    "level": "INFO",
+    "file_path": "/var/log/analytics/app.log",
+    "max_size_mb": 100,
+    "backup_count": 5,
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  },
+  "features": {
+    "enable_caching": true,
+    "enable_notifications": true,
+    "enable_analytics": true,
+    "maintenance_mode": false
+  },
+  "allowed_origins": [
+    "https://app.company.com",
+    "https://admin.company.com",
+    "https://dashboard.company.com"
+  ]
+}

@@ -1,0 +1,20 @@
+2024-01-15 08:23:45 INFO Application started successfully
+2024-01-15 08:23:46 DEBUG Loading configuration from config.json
+2024-01-15 08:23:47 INFO Database connection established
+2024-01-15 08:24:01 INFO User login: user_id=1042, ip=192.168.1.105
+2024-01-15 08:24:15 WARNING High memory usage detected: 85%
+2024-01-15 08:25:30 INFO Processing batch job: job_id=7823
+2024-01-15 08:26:45 ERROR Failed to connect to external API: timeout
+2024-01-15 08:26:46 INFO Retry attempt 1 for API connection
+2024-01-15 08:26:52 INFO API connection restored
+2024-01-15 08:27:10 INFO User logout: user_id=1042
+2024-01-15 08:28:00 DEBUG Cache cleared: 250 entries removed
+2024-01-15 08:30:15 INFO User login: user_id=2089, ip=192.168.1.203
+2024-01-15 08:32:45 WARNING Slow query detected: 2.3 seconds
+2024-01-15 08:35:00 INFO Batch job completed: job_id=7823, records=1542
+2024-01-15 08:40:22 ERROR Database connection lost
+2024-01-15 08:40:25 INFO Attempting database reconnection
+2024-01-15 08:40:28 INFO Database connection restored
+2024-01-15 08:45:00 INFO Scheduled backup started
+2024-01-15 08:52:30 INFO Backup completed: size=2.3GB
+2024-01-15 09:00:00 INFO Hourly health check: all systems operational
