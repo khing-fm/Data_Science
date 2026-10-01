@@ -1,0 +1,97 @@
+import streamlit as st
+import pandas as pd
+import joblib
+
+model = joblib.load("churn_model.pkl")
+scaler = joblib.load("scaler.pkl")
+model_columns = joblib.load("model_columns.pkl")
+
+st.title("Telco Customer Churn Predictor")
+st.write("Fill in all the customer's details for the most accurate prediction.")
+
+st.subheader("Customer Profile")
+gender = st.selectbox("Gender", ["Male", "Female"])
+senior_citizen = st.selectbox("Senior Citizen", ["No", "Yes"])
+partner = st.selectbox("Has Partner", ["No", "Yes"])
+dependents = st.selectbox("Has Dependents", ["No", "Yes"])
+
+st.subheader("Account Info")
+tenure = st.slider("Tenure (months)", 0, 72, 12)
+contract = st.selectbox("Contract", ["Month-to-month", "One year", "Two year"])
+paperless_billing = st.selectbox("Paperless Billing", ["No", "Yes"])
+payment_method = st.selectbox("Payment Method", [
+    "Electronic check", "Mailed check", "Bank transfer (automatic)", "Credit card (automatic)"
+])
+monthly_charges = st.number_input("Monthly Charges", 0.0, 200.0, 70.0)
+total_charges = st.number_input("Total Charges", 0.0, 10000.0, 1000.0)
+
+st.subheader("Services")
+phone_service = st.selectbox("Phone Service", ["Yes", "No"])
+multiple_lines = st.selectbox("Multiple Lines", ["No", "Yes", "No phone service"])
+internet_service = st.selectbox("Internet Service", ["DSL", "Fiber optic", "No"])
+online_security = st.selectbox("Online Security", ["No", "Yes", "No internet service"])
+online_backup = st.selectbox("Online Backup", ["No", "Yes", "No internet service"])
+device_protection = st.selectbox("Device Protection", ["No", "Yes", "No internet service"])
+tech_support = st.selectbox("Tech Support", ["No", "Yes", "No internet service"])
+streaming_tv = st.selectbox("Streaming TV", ["No", "Yes", "No internet service"])
+streaming_movies = st.selectbox("Streaming Movies", ["No", "Yes", "No internet service"])
+
+if st.button("Predict"):
+    # Start with every column at 0, same shape the model was trained on
+    row = pd.DataFrame(0, index=[0], columns=model_columns)
+
+    # --- Simple numeric / binary fields ---
+    row["gender"] = 1 if gender == "Male" else 0
+    row["SeniorCitizen"] = 1 if senior_citizen == "Yes" else 0
+    row["Partner"] = 1 if partner == "Yes" else 0
+    row["Dependents"] = 1 if dependents == "Yes" else 0
+    row["PhoneService"] = 1 if phone_service == "Yes" else 0
+    row["PaperlessBilling"] = 1 if paperless_billing == "Yes" else 0
+    row["tenure"] = tenure
+    row["MonthlyCharges"] = monthly_charges
+    row["TotalCharges"] = total_charges
+
+    # --- Engineered features, built the same way as in the notebook ---
+    row["IsHighRiskProfile"] = int(
+        internet_service == "Fiber optic" and contract == "Month-to-month" and tech_support == "No"
+    )
+    row["TotalChargesPerTenure"] = total_charges / tenure if tenure > 0 else total_charges
+
+    add_on_services = [online_security, online_backup, device_protection,
+                        tech_support, streaming_tv, streaming_movies, multiple_lines]
+    row["NumAddOnServices"] = sum(1 for s in add_on_services if s == "Yes")
+
+    # --- One-hot encoded columns: only set the ones that exist for this choice ---
+    onehot_fields = {
+        f"MultipleLines_{multiple_lines}": 1,
+        f"InternetService_{internet_service}": 1,
+        f"OnlineSecurity_{online_security}": 1,
+        f"OnlineBackup_{online_backup}": 1,
+        f"DeviceProtection_{device_protection}": 1,
+        f"TechSupport_{tech_support}": 1,
+        f"StreamingTV_{streaming_tv}": 1,
+        f"StreamingMovies_{streaming_movies}": 1,
+        f"Contract_{contract}": 1,
+        f"PaymentMethod_{payment_method}": 1,
+    }
+    for col_name, value in onehot_fields.items():
+        if col_name in row.columns:
+            row[col_name] = value
+
+    # --- Tenure group ---
+    if tenure <= 12:
+        pass  # New_0-12m is the baseline category — no column, stays 0
+    elif tenure <= 36:
+        row["TenureGroup_Mid_13-36m"] = 1
+    else:
+        row["TenureGroup_Loyal_37-72m"] = 1
+
+    row_scaled = scaler.transform(row)
+    prediction = model.predict(row_scaled)[0]
+    probability = model.predict_proba(row_scaled)[0][1]
+
+    st.subheader("Result")
+    if prediction == 1:
+        st.error(f"Likely to churn — probability: {probability:.1%}")
+    else:
+        st.success(f"Likely to stay — probability of churn: {probability:.1%}")
