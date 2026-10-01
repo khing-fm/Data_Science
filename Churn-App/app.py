@@ -86,7 +86,7 @@ if st.button("Predict"):
 
     row_scaled = scaler.transform(row)
 
-    prediction = model.predict(row_scaled)[0]
+        prediction = model.predict(row_scaled)[0]
     probability = model.predict_proba(row_scaled)[0][1]
 
     st.subheader("Result")
