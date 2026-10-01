@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import joblib
-
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -41,10 +40,8 @@ streaming_tv = st.selectbox("Streaming TV", ["No", "Yes", "No internet service"]
 streaming_movies = st.selectbox("Streaming Movies", ["No", "Yes", "No internet service"])
 
 if st.button("Predict"):
-    # Start with every column at 0, same shape the model was trained on
     row = pd.DataFrame(0, index=[0], columns=model_columns)
 
-    # --- Simple numeric / binary fields ---
     row["gender"] = 1 if gender == "Male" else 0
     row["SeniorCitizen"] = 1 if senior_citizen == "Yes" else 0
     row["Partner"] = 1 if partner == "Yes" else 0
@@ -55,7 +52,6 @@ if st.button("Predict"):
     row["MonthlyCharges"] = monthly_charges
     row["TotalCharges"] = total_charges
 
-    # --- Engineered features, built the same way as in the notebook ---
     row["IsHighRiskProfile"] = int(
         internet_service == "Fiber optic" and contract == "Month-to-month" and tech_support == "No"
     )
@@ -65,7 +61,6 @@ if st.button("Predict"):
                         tech_support, streaming_tv, streaming_movies, multiple_lines]
     row["NumAddOnServices"] = sum(1 for s in add_on_services if s == "Yes")
 
-    # --- One-hot encoded columns: only set the ones that exist for this choice ---
     onehot_fields = {
         f"MultipleLines_{multiple_lines}": 1,
         f"InternetService_{internet_service}": 1,
@@ -82,15 +77,21 @@ if st.button("Predict"):
         if col_name in row.columns:
             row[col_name] = value
 
-    # --- Tenure group ---
     if tenure <= 12:
-        pass  # New_0-12m is the baseline category — no column, stays 0
+        pass
     elif tenure <= 36:
         row["TenureGroup_Mid_13-36m"] = 1
     else:
         row["TenureGroup_Loyal_37-72m"] = 1
 
     row_scaled = scaler.transform(row)
+
+    # Temporary debug — remove once confirmed working
+    st.write("Encoded row sent to model:", row[["tenure", "MonthlyCharges", "TotalCharges",
+                                                   "InternetService_Fiber optic", "InternetService_No",
+                                                   "Contract_One year", "Contract_Two year",
+                                                   "TechSupport_Yes", "IsHighRiskProfile"]])
+
     prediction = model.predict(row_scaled)[0]
     probability = model.predict_proba(row_scaled)[0][1]
 
