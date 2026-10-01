@@ -86,10 +86,10 @@ if st.button("Predict"):
 
     row_scaled = scaler.transform(row)
 
-        prediction = model.predict(row_scaled)[0]
-    probability = model.predict_proba(row_scaled)[0][1]
+prediction = model.predict(row_scaled)[0]
+probability = model.predict_proba(row_scaled)[0][1]
 
-    st.subheader("Result")
+st.subheader("Result")
     if prediction == 1:
         st.error(f"Likely to churn — probability: {probability:.1%}")
     else:
