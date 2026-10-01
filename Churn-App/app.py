@@ -10,10 +10,6 @@ model = joblib.load(os.path.join(BASE_DIR, "churn_model.pkl"))
 scaler = joblib.load(os.path.join(BASE_DIR, "scaler.pkl"))
 model_columns = joblib.load(os.path.join(BASE_DIR, "model_columns.pkl"))
 
-model = joblib.load("churn_model.pkl")
-scaler = joblib.load("scaler.pkl")
-model_columns = joblib.load("model_columns.pkl")
-
 st.title("Telco Customer Churn Predictor")
 st.write("Fill in all the customer's details for the most accurate prediction.")
 
