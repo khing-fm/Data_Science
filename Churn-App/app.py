@@ -86,12 +86,6 @@ if st.button("Predict"):
 
     row_scaled = scaler.transform(row)
 
-    # Temporary debug — remove once confirmed working
-    st.write("Encoded row sent to model:", row[["tenure", "MonthlyCharges", "TotalCharges",
-                                                   "InternetService_Fiber optic", "InternetService_No",
-                                                   "Contract_One year", "Contract_Two year",
-                                                   "TechSupport_Yes", "IsHighRiskProfile"]])
-
     prediction = model.predict(row_scaled)[0]
     probability = model.predict_proba(row_scaled)[0][1]
 
