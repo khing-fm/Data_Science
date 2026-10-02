@@ -92,13 +92,13 @@ if st.button("Predict"):
     st.subheader("Result")
     
     if propability < 0.30:
-        color = "green"         # green for low risk
+        color = "#1a7a3c"         # green for low risk
         label = "Low Risk"
     elif probability < 0.60:
-        color = "orange"        # orange for medium risk
+        color = "#c97a1c"        # orange for medium risk
         label = "Medium Risk"
     else:
-        color = "red"           # red for high risk
+        color = "#b02a2a"           # red for high risk
         label = "High Risk"
 
     st.markdown(
