@@ -87,28 +87,29 @@ if st.button("Predict"):
     row_scaled = scaler.transform(row)
 
     prediction = model.predict(row_scaled)[0]
-    probability = model.predict_proba(row_scaled)[0][1]
+    churn_probability = model.predict_proba(row_scaled)[0][1]
+    stay_probability = 1 - churn_probability
 
     st.subheader("Result")
-    
-    if probability < 0.30:
-        color = "#1a7a3c"         # green for low risk
-        label = "Low Risk"
-    elif probability < 0.60:
-        color = "#c97a1c"        # orange for medium risk
-        label = "Medium Risk"
+
+    stay_pct = stay_probability * 100
+
+    if stay_pct <= 30:
+        color = "#b02a2a"   #red
+        label = "Low likelihood of staying"
+    elif stay_pct <= 60:
+        color = "#c97a1c"   #yellow/orange
+        label = "Moderate likelihood of staying"
     else:
-        color = "#b02a2a"           # red for high risk
-        label = "High Risk"
+        color = "#1a7a3c"   #green
+        label = "High likelihood of staying"
 
     st.markdown(
         f"""
-        <div style="background-color: {color}; padding: 16px; border-radius: 8px;">
-            <span style="color:white; font-size: 18px; font-weight: bold;">
-                {label} - probability of churn: {probability:.1%}
+        <div style="background-color:{color}; padding:16px; border-radius:8px;">
+            <span style="color:white; font-size:18px; font-weight:bold;">
+            {label} - likelihood of staying: {stay_pct:.1f}%
             </span>
-        </div>
         """,
         unsafe_allow_html=True
-
     )
