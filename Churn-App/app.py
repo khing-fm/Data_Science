@@ -94,10 +94,10 @@ if st.button("Predict"):
 
     stay_pct = stay_probability * 100
 
-    if stay_pct <= 30:
+    if stay_pct <= 50:
         color = "#b02a2a"   #red
         label = "Low likelihood of staying"
-    elif stay_pct <= 60:
+    elif stay_pct <= 80:
         color = "#c97a1c"   #yellow/orange
         label = "Moderate likelihood of staying"
     else:
