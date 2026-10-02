@@ -91,7 +91,7 @@ if st.button("Predict"):
 
     st.subheader("Result")
     
-    if propability < 0.30:
+    if probability < 0.30:
         color = "#1a7a3c"         # green for low risk
         label = "Low Risk"
     elif probability < 0.60:
