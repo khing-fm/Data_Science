@@ -90,7 +90,25 @@ if st.button("Predict"):
     probability = model.predict_proba(row_scaled)[0][1]
 
     st.subheader("Result")
-    if prediction == 1:
-        st.error(f"Likely to churn — probability: {probability:.1%}")
+    
+    if prediction < 0.30:
+        color = "green"         # green for low risk
+        label = "Low Risk"
+    elif prediction < 0.60:
+        color = "orange"        # orange for medium risk
+        label = "Medium Risk"
     else:
-        st.success(f"Likely to stay — probability of churn: {probability:.1%}")
+        color = "red"           # red for high risk
+        label = "High Risk"
+
+    st.markdown(
+        f""""
+        <div style="background-color: {color}; padding: 16px; border-radius: 8px;">
+            <span style="color:white; font-size: 18px; font-weight: bold;">
+                {label} - probability of churn: {probability:.1%}
+            </span>
+        </div>
+        """,
+        unsafe_allow_html=True
+
+    )
