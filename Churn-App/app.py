@@ -91,10 +91,10 @@ if st.button("Predict"):
 
     st.subheader("Result")
     
-    if prediction < 0.30:
+    if propability < 0.30:
         color = "green"         # green for low risk
         label = "Low Risk"
-    elif prediction < 0.60:
+    elif probability < 0.60:
         color = "orange"        # orange for medium risk
         label = "Medium Risk"
     else:
@@ -102,7 +102,7 @@ if st.button("Predict"):
         label = "High Risk"
 
     st.markdown(
-        f""""
+        f"""
         <div style="background-color: {color}; padding: 16px; border-radius: 8px;">
             <span style="color:white; font-size: 18px; font-weight: bold;">
                 {label} - probability of churn: {probability:.1%}
